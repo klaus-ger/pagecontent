@@ -39,4 +39,5 @@ Die aktuelle Version enthält folgende Widgets:
 - letzte Kommentare
 - letzte Posts
 - Kategorien
+
 *Weitere Widgets sind in Planung.*
