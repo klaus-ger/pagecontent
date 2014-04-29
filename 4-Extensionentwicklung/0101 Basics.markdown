@@ -10,12 +10,14 @@ Als Beispiel nehme ich hier eine einfache Produktdatenbank:
 
 image scetch
 
-Anhand dieses Blueprints und des Extension Builders (1) können die Models und Abhängigkeiten ziemlich einfach "zusammengeklickt" werden:
+Was hier simpel erscheint, kann in Extensions mit über 20 Tabellen und zig Abhängigkeiten einem das Leben retten ;)
+
+Anhand dieses Blueprints und des Extension Builders können die Models und Abhängigkeiten ziemlich einfach "zusammengeklickt" werden:
 
 ###Extensions mit dem Extension Builder erstellen###
 
 image extension builder
 
-Nach dem speichern finden wir im Extensionverzeichnis unsere neue Extension "Produktdatenbank" die in etwas folgende Struktur hat:
+Nach dem Speichern finden wir im Extensionverzeichnis unsere neue Extension "Produktdatenbank" die in etwas folgende Struktur hat:
 
 image Struktur EXT Verzeichnis
