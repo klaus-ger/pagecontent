@@ -3,6 +3,7 @@
 ##Basics##
 - Basics
 - DB Relationen
+- Extension Setup
 - Extensionentwicklung Konzepte: MCV und DDD
 
 ##Erweiterte Controller Funktionen##
