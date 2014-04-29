@@ -4,7 +4,7 @@
 - Basics
 - DB Relationen
 - Extensionentwicklung Konzepte: MCV und DDD
-- 
+
 ###Erweiterte Controller Funktionen###
 - Base Controller
 - Meta Ausgaben beieinflussen
