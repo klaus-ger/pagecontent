@@ -9,7 +9,7 @@
 ##Erweiterte Controller Funktionen##
 - Base Controller
 - Meta Ausgaben beieinflussen
-- Libaries nutzen am Beispuel der TCPDF
+- Libaries nutzen am Beispiel der TCPDF
 
 ##FAL Handling##
 - Standard
