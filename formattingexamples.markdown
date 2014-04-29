@@ -4,7 +4,7 @@
 
 This is the first text of the index
 
-  Some text in frame
-  bla ...
+    Some text in frame
+    bla ...
   
-Some ìnline`frames
+Some `ìnline` frames
