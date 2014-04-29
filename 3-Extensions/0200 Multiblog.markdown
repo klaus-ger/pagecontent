@@ -1,1 +1,6 @@
 #Multiblog#
+
+Eine Blogextension für TYPO3. 
+Multiblog it eine einfach zu administrierende Blogextension mit Kommentarfunktion, social sharing und kompletter Frontend Editierung des Blogs. Es sind mehrere Blogs in einer TYPO3 Installation möglich.
+
+Aktuelle Version:: 1.1 stable
