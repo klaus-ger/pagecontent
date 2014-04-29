@@ -10,7 +10,7 @@ Als Beispiel nehme ich hier eine einfache Produktdatenbank:
 
 image scetch
 
-Anhand dieses Blueprints und des Extension Builders (1) können die Models ziemlich einfach "zusammengeklickt" werden:
+Anhand dieses Blueprints und des Extension Builders (1) können die Models und Abhängigkeiten ziemlich einfach "zusammengeklickt" werden:
 
 ###Extensions mit dem Extension Builder erstellen###
 
