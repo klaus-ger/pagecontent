@@ -12,6 +12,8 @@ image scetch
 
 Anhand dieses Blueprints und des Extension Builders (1) können die Models ziemlich einfach "zusammengeklickt" werden:
 
+###Extensions mit dem Extension Builder erstellen###
+
 image extension builder
 
 Nach dem speichern finden wir im Extensionverzeichnis unsere neue Extension "Produktdatenbank" die in etwas folgende Struktur hat:
