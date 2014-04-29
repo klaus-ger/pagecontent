@@ -8,3 +8,7 @@ This is the first text of the index
     bla ...
   
 Some `ìnline` frames
+
+A list:
+* topic 1
+* Topic 2
