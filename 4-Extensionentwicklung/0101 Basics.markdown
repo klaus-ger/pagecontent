@@ -21,3 +21,13 @@ image extension builder
 Nach dem Speichern finden wir im Extensionverzeichnis unsere neue Extension "Produktdatenbank" die in etwas folgende Struktur hat:
 
 image Struktur EXT Verzeichnis
+
+Extbase erwartet die Dateien in speziellen Verzeichnissen, nur so kann das Autoloading von Classen funktioneren. Demnach sind die Ordnerbezeichnungen fix und dürfen auch nicht geändert werden.
+
+Verzeichnis **Classes**
+Nur hier - und wirklich nur hier - steht ausführbarer php Code. Alles was später an php Libaries, ViewHelpers oder Utilitiy Classes gebraucht wird, kommt hier hinein. 
+
+Verzeichnis **Configuration**
+Extension Setup, Configurationsdatei und TCA der Tabellen. Später auch plugin Flexforms etc ...
+
+Verzeichnis **Resources**
