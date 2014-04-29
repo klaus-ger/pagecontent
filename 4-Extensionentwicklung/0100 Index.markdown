@@ -15,7 +15,7 @@
 - Erweiterte Frontend Funktionen
 - Migration aus alten Versionen
 
-Ajax in Extensions
+###Ajax in Extensions###
 - EID oder PageNum?
 - Ajax mit PageNum
 - Ajax mit EID
