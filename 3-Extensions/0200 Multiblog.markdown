@@ -34,3 +34,9 @@ Die eingebaute Kommentarfunktion basiert auf Ajax. Jeder Kommentar muss vom Blog
 - Post der kommentiert wurde
 
 ###Widgets###
+Die aktuelle Version enthält folgende Widgets:
+- Blog Kurzbeschreibung
+- letzte Kommentare
+- letzte Posts
+- Kategorien
+
