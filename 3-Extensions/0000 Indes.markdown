@@ -1,5 +1,7 @@
-01xx 
-02xx
+01xx Responsive Template
+
+02xx Multiblog
+
 03xx
 
 5xxx TER Extensions
