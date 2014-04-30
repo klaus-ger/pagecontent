@@ -30,14 +30,20 @@
 | 0103 | -- EXT Setup                   |              | none |
 | 0104 | -- Plugins Flexforms           |              | none |
 | 0190 | -- Konzepte MVC & DDD          |              | none |
-| 0200 | **Erw. Controller Funktionen** | --           | none |
+| 0200 | **Erw. Controller Funktionen** | --           | --   |
 | 0201 | -- Base Controller             |              | none |
 | 0202 | -- Meta Ausgaben               |              | none |
 | 0203 | -- Libaries nutzen             |              | none |
-| 0300 | **FAL Handling**               | --           | none |
+| 0300 | **FAL Handling**               | --           | --   |
 | 0301 | -- Standard                    |              | none |
 | 0302 | -- erw. Frontend Funktionen    |              | none |
 | 0303 | -- Datenmigration              |              | none |
+| 0400 | **Ajax in Extensions**         | --           | -- |
+| 0401 | -- Übersicht                   |              | none |
+| 0402 | -- pageType                    |              | none |
+| 0403 | -- EID Mechanismus             |              | none |
+| 0500 | **Fluid Templating**           | --           | -- |
+| 0403 | -- Layouts, Templates, Partials|              | none |
 
 ###5 TYPO3 Themen###
 
