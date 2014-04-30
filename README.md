@@ -22,11 +22,21 @@
 
 ###4 Extensionentwicklung###
 
-| ID   | Titel            | Status       | Translation |
-| :--- | :--------------- | :----------- | :---------- |
-| 0101 | Basics           | writing      | none |
-| 0102 | DB Relationen    |              | none |
-| 0103 | EXt Setup        |              | none |
+| ID   | Titel                       | Status       | Translation |
+| :--- | :-------------------------- | :----------- | :---------- |
+| 0101 | Basics                      | writing      | none |
+| 0102 | -- DB Relationen            |              | none |
+| 0103 | -- EXT Setup                |              | none |
+| 0104 | -- Plugins Flexforms        |              | none |
+| 0190 | -- Konzepte MVC & DDD       |              | none |
+| 0200 | Erw. Controller Funktionen  |              | none |
+| 0201 | -- Base Controller          |              | none |
+| 0202 | -- Meta Ausgaben            |              | none |
+| 0203 | -- Libaries nutzen          |              | none |
+| 0300 | FAL Handling                |              | none |
+| 0301 | -- Standard                 |              | none |
+| 0302 | -- erw. Frontend Funktionen |              | none |
+| 0303 | -- Datenmigration           |              | none |
 
 ###5 TYPO3 Themen###
 
