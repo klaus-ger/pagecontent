@@ -16,7 +16,7 @@
 | :--- | :------------------ | :----------- | :---------- |
 | 0100 | Responsive Template | writing      | none |
 | 0200 | Multiblog           |              | none |
-| 0201 | MB: Einrichtung     |              | none |
+| 0201 | -- Einrichtung     |              | none |
 | 0300 | Projects And Tasks  |              | none |
 | 0400 | Community           |              | none |
 
