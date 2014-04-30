@@ -8,7 +8,9 @@ Vor der Erstellung einer neuer Extension sollte man sich die Zeit nehmen, die er
 
 Als Beispiel nehme ich hier eine einfache Produktdatenbank:
 
-image scetch
+![Image](../blob/master/9-Imaes//img/Tables Produktdatenbank.png?raw=true)
+ 
+
 
 Was hier simpel und trivial erscheint, kann in Extensions mit über 20 Tabellen und zig Abhängigkeiten einem das Leben retten ;) Investiert die Zeit und macht es euch zur Gewohnheit - wer im Kundengespräch ein solches Chart zum Datenmodelling aus der Tasche ziehen kann wirkt einfach professioneller als die Aussage "Ich muss mal sehen ob das geht ...".
 
