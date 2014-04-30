@@ -12,13 +12,17 @@
 
 ###3 Extensions###
 
-| ID   | Titel               | Status       | Translation |
-| :--- | :------------------ | :----------- | :---------- |
-| 0100 | Responsive Template | writing      | none |
-| 0200 | Multiblog           |              | none |
-| 0201 | -- Einrichtung     |              | none |
-| 0300 | Projects And Tasks  |              | none |
-| 0400 | Community           |              | none |
+| ID   | Titel                   | Status       | Translation |
+| :--- | :---------------------- | :----------- | :---------- |
+| 0100 | **Responsive Template** | --           | -- |
+| 0101 | -- Übersicht            | writing      | none |
+| 0200 | **Multiblog **          |              | none |
+| 0201 | -- Übersicht            |              | none |
+| 0202 | -- Einrichtung          |              | none |
+| 0300 | **Projects And Tasks**  | --           | -- |
+| 0301 | -- Übersicht            |              | none |
+| 0400 | **Community**           |              | none |
+| 0401 | -- Übersicht            |              | none |
 
 ###4 Extensionentwicklung###
 
