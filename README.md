@@ -14,6 +14,12 @@
 
 ###4-Extensionentwicklung###
 
+| ID   | Titel            | Status       | Translation |
+| :--- | :--------------- | :----------- | :---------- |
+| 0101 | Basics           | writing      | none |
+| 0102 | DB Relationen    |              | none |
+| 0103 | EXt Setup        |              | none |
+
 ###5-TYPO3 Themen###
 
 ###6-jQuery GIT###
