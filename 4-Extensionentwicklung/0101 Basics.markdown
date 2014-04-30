@@ -8,7 +8,7 @@ Vor der Erstellung einer neuer Extension sollte man sich die Zeit nehmen, die er
 
 Als Beispiel nehme ich hier eine einfache Produktdatenbank:
 
-![Image](../blob/master/9-Imaes//img/Tables Produktdatenbank.png?raw=true)
+![Image](../blob/master/9-Images/Tables Produktdatenbank.png?raw=true)
  
 
 
