@@ -25,7 +25,7 @@
 | ID   | Titel                          | Status       | Translation |
 | :--- | :----------------------------- | :----------: | :---------: |
 | 0101 | **Basics**                     | --           | -- |
-| 0101 | -- Basics                      | writing      | none |
+| 0101 | -- Basics                      | writing      | none | 
 | 0102 | -- DB Relationen               |              | none |
 | 0103 | -- EXT Setup                   |              | none |
 | 0104 | -- Plugins Flexforms           |              | none |
