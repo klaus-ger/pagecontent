@@ -15,7 +15,9 @@ Was hier simpel und trivial erscheint, kann in Extensions mit über 20 Tabellen 
 
 Anhand dieses Blueprints und des Extension Builders können die Models und Abhängigkeiten ziemlich einfach "zusammengeklickt" werden:
 
-###Extensions mit dem Extension Builder erstellen###
+##Extensions mit dem Extension Builder erstellen##
+
+Der Extension Builder wird nicht automatisch installiert sondern muss aus dem TER geladen werden (Key: extension_builder).
 
 image extension builder
 
