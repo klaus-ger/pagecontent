@@ -12,6 +12,14 @@
 
 ###3-Extensions###
 
+| ID   | Titel               | Status       | Translation |
+| :--- | :------------------ | :----------- | :---------- |
+| 0100 | Responsive Template | writing      | none |
+| 0200 | Multiblog           |              | none |
+| 0201 | MB: Einrichtung     |              | none |
+| 0300 | Projects And Tasks  |              | none |
+| 0400 | Community           |              | none |
+
 ###4-Extensionentwicklung###
 
 | ID   | Titel            | Status       | Translation |
