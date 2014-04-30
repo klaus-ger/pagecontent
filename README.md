@@ -43,7 +43,23 @@
 | 0402 | -- pageType                    |              | none |
 | 0403 | -- EID Mechanismus             |              | none |
 | 0500 | **Fluid Templating**           | --           | -- |
-| 0403 | -- Layouts, Templates, Partials|              | none |
+| 0501 | -- Layouts, Templates, Partials|              | none |
+| 0502 | -- ViewHelper erstellen        |              | none |
+| 0503 | -- VHS, Fed, Flux              |              | none |
+| 0600 | **TCA Forms BE Module**        | --           | -- |
+| 0601 | -- TCA Forms stylen            |              | none |
+| 0602 | -- Backend ViewHelper          |              | none |
+| 0603 | -- Components                  |              | none |
+| 0604 | -- Backend Module              |              | none |
+| 0605 | -- Eigene Modulgruppe          |              | none |
+| 9000 | **CheatList Extbase**          | --           | -- |
+| 9001 | -- Controller                  |              | none |
+| 9002 | -- Model                       |              | none |
+| 9003 | -- Repository                  |              | none |
+| 9100 | **CheatList EFluid**           | --           | -- |
+| 9101 | -- Standard ViewHelper         |              | none |
+| 9102 | -- Widgets                     |              | none |
+| 9103 | -- eigene ViewHelper           |              | none |
 
 ###5 TYPO3 Themen###
 
