@@ -16,5 +16,13 @@
 
 Empfehlenswert ist der Einsatz von realUrl. Eine Beispielkonfiguration ist im EXT Ordner multiblog/realURL_config enthalten. Mit dieser Konfiguration werden URLs wie 'www.meineseite.de/die-ist-mein-blogeintrag' erzeugt.
 
+##Einrichtung##
 
+* Im storage Folder des Blogs eine FE USergroup und einen FE User anlegen
+* Inder Listenansicht des storagFolders einen Blog hinzufügen, Blogtitel eintragen und den FE-USer auswählen.
+* Auf dem Reiter Widgets sollte mindestens das Widget 'Meta' ausgewählt werden.
+
+* Die Frontendseite des Blogs aufrufen
+* In der Sidebar den Punkt 'Login' auwählen und mit den FE Usersaten einloggen
+* Start blogging :))
  
