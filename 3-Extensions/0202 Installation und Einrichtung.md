@@ -12,9 +12,9 @@
 
 * Auf einer weiteren Seite das Plugin Blog -> frontend editing einfügen und Konstante im Setup setzten
 
-* Im Seitentyposcript des Speicherordners: TCEMAIN.clearCacheCmd = PID of the Blogplugin eintragen. Damit wird der Cache bei neuen Einträgen automatisch gelöscht.
+* Im Seitentyposcript des Speicherordners: 'TCEMAIN.clearCacheCmd = PID of the Blogplugin' eintragen. Damit wird der Cache bei neuen Einträgen automatisch gelöscht.
 
-Empfehlenswert ist der Einsatz von realUrl. Eine Beispielkonfiguration ist im EXT Ordner multiblog/realURL_config enthalten. Mit dieser Konfiguration werden links wie 'www.meineseite.de/die-ist-mein-blogeintrag' erzeugt werden.
+Empfehlenswert ist der Einsatz von realUrl. Eine Beispielkonfiguration ist im EXT Ordner multiblog/realURL_config enthalten. Mit dieser Konfiguration werden URLs wie 'www.meineseite.de/die-ist-mein-blogeintrag' erzeugt.
 
 
  
