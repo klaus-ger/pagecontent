@@ -18,11 +18,11 @@ Empfehlenswert ist der Einsatz von realUrl. Eine Beispielkonfiguration ist im EX
 
 ##Einrichtung##
 
-* Im storage Folder des Blogs eine FE USergroup und einen FE User anlegen
-* Inder Listenansicht des storagFolders einen Blog hinzufügen, Blogtitel eintragen und den FE-USer auswählen.
+* Im storage Folder des Blogs eine FE Usergroup und einen FE User anlegen
+* In der Listenansicht des storagFolders einen Blog hinzufügen, Blogtitel eintragen und den FE-User auswählen.
 * Auf dem Reiter Widgets sollte mindestens das Widget 'Meta' ausgewählt werden.
 
 * Die Frontendseite des Blogs aufrufen
-* In der Sidebar den Punkt 'Login' auwählen und mit den FE Usersaten einloggen
+* In der Sidebar den Punkt 'Login' auwählen und mit den FE-Usersaten einloggen
 * Start blogging :))
  
