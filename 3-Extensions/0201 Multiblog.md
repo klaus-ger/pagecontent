@@ -8,6 +8,8 @@ Multiblog ist eine einfach zu administrierende Blogextension mit Kommentarfunkti
 | TER Name         | multiblog    |
 | Kompatibel | TYPO3 6.2.1 und höher |
 
+##Screenshoots##
+
 ##Kurzbeschreibung##
 
 ###Blog###
@@ -41,3 +43,8 @@ Die aktuelle Version enthält folgende Widgets:
 - Kategorien
 
 *Weitere Widgets sind in Planung.*
+
+##ToDos##
+
+- Labels in Frontendedietierung übersetzen
+- Backenmodul für komfortablere BE Editierung
