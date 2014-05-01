@@ -16,7 +16,7 @@
 | :--- | :---------------------- | :----------- | :---------- |
 | 0100 | **Responsive Template** | --           | -- |
 | 0101 | -- Übersicht            | writing      | none |
-| 0200 | **Multiblog**          |              | none |
+| 0200 | **Multiblog**           |              | none |
 | 0201 | -- Übersicht            |              | none |
 | 0202 | -- Einrichtung          |              | none |
 | 0300 | **Projects And Tasks**  | --           | -- |
@@ -60,7 +60,7 @@
 | 9001 | -- Controller                  |              | none |
 | 9002 | -- Model                       |              | none |
 | 9003 | -- Repository                  |              | none |
-| 9100 | **CheatList EFluid**           | --           | -- |
+| 9100 | **CheatList Fluid**            | --           | -- |
 | 9101 | -- Standard ViewHelper         |              | none |
 | 9102 | -- Widgets                     |              | none |
 | 9103 | -- eigene ViewHelper           |              | none |
