@@ -10,9 +10,9 @@ Multiblog ist eine einfach zu administrierende Blogextension mit Kommentarfunkti
 
 ##Screenshoots##
 
-  <img src="../9-Images/Multiblog_screen_1.png" width="200px" align="top">.
-  <img src="../9-Images/Multiblog_screen_2.png" width="200px" align="top">.
-  <img src="../9-Images/Multiblog_screen_3.png" width="200px" align="top">
+  <img src="../9-Images/Multiblog_screen_1.png" width="300px" align="top">.
+  <img src="../9-Images/Multiblog_screen_2.png" width="300px" align="top">.
+  <img src="../9-Images/Multiblog_screen_3.png" width="300px" align="top">
 
 
 ##Kurzbeschreibung##
