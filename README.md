@@ -17,8 +17,8 @@
 | 0100 | **Responsive Template** | --           | -- |
 | 0101 | -- Übersicht            | writing      | none |
 | 0200 | **Multiblog**           |              | none |
-| 0201 | -- Übersicht            |              | none |
-| 0202 | -- Einrichtung          |              | none |
+| 0201 | -- Übersicht            | check        | none |
+| 0202 | -- Einrichtung          | check        | none |
 | 0300 | **Projects And Tasks**  | --           | -- |
 | 0301 | -- Übersicht            |              | none |
 | 0400 | **Community**           |              | none |
