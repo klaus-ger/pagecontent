@@ -20,3 +20,11 @@
 | 0104 | RTE konfiguration             |              |             |      |
 | 0105 | Mehrsprachigkeit              |              |             |      |
 | 0106 |Eigene CE Elemente             |              |             |      |
+
+
+###Wartung und Updates###
+
+| ID   | Titel                         | Status       | Translation | SO   |
+| :--- | :---------------------------- | :----------- | :---------- | :--: |
+| 0101 | Core Updates                  |              |             |      |
+| 0102 | Wartung                       |              | none        |      |        
