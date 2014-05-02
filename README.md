@@ -2,4 +2,6 @@
 ***
 
 
-#Readme#
+#ToDos#
+[ ] Writing responsice template content
+[ ] Structure of installation
