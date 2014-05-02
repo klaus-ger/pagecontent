@@ -16,6 +16,7 @@
 | :--- | :---------------------- | :----------- | :---------- | :--: |
 | 0100 | **Responsive Template** | --           | --          | -- |
 | 0101 | -- Übersicht            | writing      | none        |  |
+| 0102 | -- Installation         | writing      | none        |  |
 | 0200 | **Multiblog**           |              | --          | -- |
 | 0201 | -- Übersicht            | check        | none        | |
 | 0202 | -- Einrichtung          | check        | none        | |
