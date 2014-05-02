@@ -10,6 +10,6 @@
 | 0102 | -- Conditions                 |              | none        |      |
 | 0200 | **Navigation mit Typoscript** | --           | --          | --   |
 | 0201 | -- Übersicht                  |              |             |      |
-| 0202 | -- Info Menü                  |              |             |      |
+| 0202 | -- Info Menü                  |  check       |             |      |
 | 0203 | -- DropDown Menü              |              |             |      |
 | 0204 | -- Breadcrump                 |              |             |      |
