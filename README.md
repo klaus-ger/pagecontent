@@ -12,18 +12,18 @@
 
 ###3 Extensions###
 
-| ID   | Titel                   | Status       | Translation | SO |
+| ID   | Titel                   | Status       | Translation | SO   |
 | :--- | :---------------------- | :----------- | :---------- | :--: |
-| 0100 | **Responsive Template** | --           | --          | -- |
-| 0101 | -- Übersicht            | writing      | none        |  |
-| 0102 | -- Installation         | writing      | none        |  |
-| 0200 | **Multiblog**           |              | --          | -- |
-| 0201 | -- Übersicht            | check        | none        | |
-| 0202 | -- Einrichtung          | check        | none        | |
-| 0300 | **Projects And Tasks**  | --           | --          | -- |
-| 0301 | -- Übersicht            |              | none | |
-| 0400 | **Community**           |              | --          | -- |
-| 0401 | -- Übersicht            |              | none | |
+| 0100 | **Responsive Template** | --           | --          | --   |
+| 0101 | -- Übersicht            | writing      | none        |      |
+| 0102 | -- Installation         | writing      | none        |      |
+| 0200 | **Multiblog**           |              | --          | --   |
+| 0201 | -- Übersicht            | check        | none        |      | 
+| 0202 | -- Einrichtung          | check        | none        |      |
+| 0300 | **Projects And Tasks**  | --           | --          | --   |
+| 0301 | -- Übersicht            |              | none        |      |
+| 0400 | **Community**           |              | --          | --   |
+| 0401 | -- Übersicht            |              | none        |      |
 
 ###4 Extensionentwicklung###
 
@@ -68,6 +68,17 @@
 
 ###5 TYPO3 Themen###
 
-###6 jQuery & GIT###
+###6 Libaries & APIs###
+
+| ID   | Titel                          | Status       | Translation | SO   |
+| :--- | :----------------------------- | :----------: | :---------: | :--: |
+| 0100 | **jQuery**                     | --           | --          | --   |
+| 0101 | cheat List                     |              |             |      |
+| 0200 | **jQuery Libs**                | --           | --          | --   |
+| 0201 | TCPDF                          |              |             |      |
+| 0202 | graph                          |              |             |      |
+| 0501 | **APIs**                       | --           | --          | --   |
+| 0501 | Youtube                        |              |             |      |
+
 
 ###7 Tutorials###
