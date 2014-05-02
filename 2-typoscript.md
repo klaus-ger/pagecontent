@@ -2,3 +2,14 @@
 ***
 
 ###2. Typoscript###
+
+| ID   | Titel                         | Status       | Translation | SO   |
+| :--- | :---------------------------- | :----------- | :---------- | :--: |
+| 0100 | **Typoscript allg**           | --           | --          | --   |
+| 0101 | -- Übersicht                  |              | none        |      |
+| 0102 | -- Conditions                 |              | none        |      |
+| 0200 | **Navigation mit Typoscript** | --           | --          | --   |
+| 0201 | -- Übersicht                  |              |             |      |
+| 0202 | -- Info Menü                  |              |             |      |
+| 0203 | -- DropDown Menü              |              |             |      |
+| 0204 | -- Breadcrump                 |              |             |      |
