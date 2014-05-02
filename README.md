@@ -3,5 +3,5 @@
 
 
 #ToDos#
-[ ] Writing responsice template content
-[ ] Structure of installation
+*[ ] Writing responsice template content
+*[ ] Structure of installation
