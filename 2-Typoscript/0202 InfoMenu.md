@@ -1,3 +1,5 @@
+Ein Info Menü wird wohl in fast jedem TYPO3 Projekt an irgendeiner Stelle verwendet: für Kontaktseiten, Impressum, Anfahrtspläne etc, die ausserhalb des "normalen" Hauptmenüs stehen.
+
 ##Info Menü##
 
 Ein Infomenü, also ein Menü das Seiten ausserhalb des normalen TYPO3 Seitenbaums rendert, kann auf verschiedene weise erzeugt werden.
