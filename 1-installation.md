@@ -8,3 +8,14 @@
 | 0100 | **Index**                     | --           | --          | --   |
 | 0101 | -- Übersicht                  |              | none        |      |
 | 0199 | -- TYPO3 per ssh installieren |              | none        |      |
+
+
+###Einrichtung###
+
+| ID   | Titel                         | Status       | Translation | SO   |
+| :--- | :---------------------------- | :----------- | :---------- | :--: |
+| 0101 | Einleitung                    |              |             |      |
+| 0102 | Setup & Page Configuration    |              | none        |      |
+| 0103 | Backendlayouts                |              |             |      |
+| 0104 | RTE konfiguration             |              |             |      |
+| 0103 |Eigene CE Elemente             |              |             |      |
