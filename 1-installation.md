@@ -3,7 +3,7 @@
 
 ###1. Installation###
 
-| ID   | Titel            | Status       |
-| :--- | :--------------- | :----------- |
-| 0100 | TER Name         | multiblog    |
-| 0100 | Kompatibel | TYPO3 6.2.1 und höher |
+| ID   | Titel            | Status       | Trans  | SO
+| :--- | :--------------- | :----------- | :--| |
+| 0100 | TER Name         | multiblog    | | |
+| 0100 | Kompatibel | TYPO3 6.2.1 und höher | | |
