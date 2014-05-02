@@ -6,14 +6,14 @@ Die Extension responsive Template ist mit wenigen Klicks installiert und stellt 
 
 ##Features##
 
-• komplettes TYPO3 Seitentemplate
-• 4 verschiedene Backend- / Frontendtemplates
-• Desktop und Mobil Menu
-• optionale Mehrsprachigkeit inkl. Menü
-• optionales SecondMenu in Sidebars
-• Einfache Installation als TER Extension
+* komplettes TYPO3 Seitentemplate
+* 4 verschiedene Backend- / Frontendtemplates
+* Desktop und Mobil Menu
+* optionale Mehrsprachigkeit inkl. Menü
+* optionales SecondMenu in Sidebars
+* Einfache Installation als TER Extension
 
-• General Public License: verwendbar für komerzielle Projekte
+* General Public License: verwendbar für komerzielle Projekte
 
 Download über:
 TYPO3 TER: responsive_template
@@ -26,9 +26,9 @@ Eine Live Demo Seite ist unter www.responsive-Design.t3-developer.com
 
 
 ##Neuheiten in Version 1.2.0 (stable TER Version):##
-• Weiteres Seitenlayout integriert (Sidebar links)
-• Zweites Menü in Sidebars über Konstanten optional einblendbar
-• Footer kann jetzt über eine Page im Backend gefüllt werden
-• Verbesserte Meta-Tag Ausgabe im Quellcode
-• 2. und 3. Webseitensprache jetzt optional auswählbar
-• jQuery kann jetzt alternativ im Footer oder Header eingebunden werden.
+* Weiteres Seitenlayout integriert (Sidebar links)
+* Zweites Menü in Sidebars über Konstanten optional einblendbar
+* Footer kann jetzt über eine Page im Backend gefüllt werden
+* Verbesserte Meta-Tag Ausgabe im Quellcode
+* 2. und 3. Webseitensprache jetzt optional auswählbar
+* jQuery kann jetzt alternativ im Footer oder Header eingebunden werden.
