@@ -3,6 +3,8 @@
 
 ###1. Installation###
 
+**Installation**
+
 | ID   | Titel                         | Status       | Translation | SO   |
 | :--- | :---------------------------- | :----------- | :---------- | :--: |
 | 0100 | **Index**                     | --           | --          | --   |
@@ -10,7 +12,7 @@
 | 0199 | TYPO3 per ssh installieren    |              | none        |      |
 
 
-###Einrichtung###
+**Einrichtung**
 
 | ID   | Titel                         | Status       | Translation | SO   |
 | :--- | :---------------------------- | :----------- | :---------- | :--: |
@@ -22,7 +24,7 @@
 | 0206 |Eigene CE Elemente             |              |             |      |
 
 
-###Wartung und Updates###
+**Wartung und Updates**
 
 | ID   | Titel                         | Status       | Translation | SO   |
 | :--- | :---------------------------- | :----------- | :---------- | :--: |
