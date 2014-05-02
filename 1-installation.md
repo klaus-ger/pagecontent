@@ -14,17 +14,17 @@
 
 | ID   | Titel                         | Status       | Translation | SO   |
 | :--- | :---------------------------- | :----------- | :---------- | :--: |
-| 0101 | Einleitung                    |              |             |      |
-| 0102 | Setup & Page Configuration    |              | none        |      |
-| 0103 | Backendlayouts                |              |             |      |
-| 0104 | RTE konfiguration             |              |             |      |
-| 0105 | Mehrsprachigkeit              |              |             |      |
-| 0106 |Eigene CE Elemente             |              |             |      |
+| 0201 | Einleitung                    |              |             |      |
+| 0202 | Setup & Page Configuration    |              | none        |      |
+| 0203 | Backendlayouts                |              |             |      |
+| 0204 | RTE konfiguration             |              |             |      |
+| 0205 | Mehrsprachigkeit              |              |             |      |
+| 0206 |Eigene CE Elemente             |              |             |      |
 
 
 ###Wartung und Updates###
 
 | ID   | Titel                         | Status       | Translation | SO   |
 | :--- | :---------------------------- | :----------- | :---------- | :--: |
-| 0101 | Core Updates                  |              |             |      |
-| 0102 | Wartung                       |              | none        |      |        
+| 0301 | Core Updates                  |              |             |      |
+| 0302 | Wartung                       |              | none        |      |        
