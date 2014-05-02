@@ -17,6 +17,8 @@
 | 0401 | -- Übersicht            |              | none        |      |
 
 
+**TER Extensions**
+
 | ID   | Titel                   | Status       | Translation | SO   |
 | :--- | :---------------------- | :----------- | :---------- | :--: |
 | 0800 | Indexed Search          |              |             |      |
