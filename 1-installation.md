@@ -6,8 +6,8 @@
 | ID   | Titel                         | Status       | Translation | SO   |
 | :--- | :---------------------------- | :----------- | :---------- | :--: |
 | 0100 | **Index**                     | --           | --          | --   |
-| 0101 | -- Übersicht                  |              | none        |      |
-| 0199 | -- TYPO3 per ssh installieren |              | none        |      |
+| 0101 | Übersicht                     |              | none        |      |
+| 0199 | TYPO3 per ssh installieren    |              | none        |      |
 
 
 ###Einrichtung###
