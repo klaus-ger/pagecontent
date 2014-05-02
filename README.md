@@ -1,5 +1,6 @@
 #Content#
 
+[Installation](1-installation.md) | text
 
 ###1 Installation###
 
