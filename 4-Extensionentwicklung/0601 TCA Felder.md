@@ -63,3 +63,18 @@ mit Wizards:
             ),
         ),
   ````
+
+###FAL Image Feld###
+````
+'my_image' => array(
+            'exclude' => 1,
+            'label' => 'Image',
+            'config' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig('files', array(
+                'appearance' => array(
+                    'createNewRelationLinkTitle' => 'LLL:EXT:cms/locallang_ttc.xlf:images.addFileReference'
+                ),
+                'minitems' => 0,
+                'maxitems' => 3,
+                    ), $GLOBALS['TYPO3_CONF_VARS']['GFX']['imagefile_ext']),
+        ),
+````
