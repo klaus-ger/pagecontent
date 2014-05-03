@@ -27,7 +27,7 @@ mit Wizards:
 ````
 'my_select' => array(
             'exclude' => 1,
-            'label' => 'LLL:EXT:theatre/Resources/Private/Language/locallang_persons.xlf:form_function',
+            'label' => 'my_field_label',
             'config' => array(
                 'type' => 'select',
                 'foreign_table' => 'tx_mytable',
