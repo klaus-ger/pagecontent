@@ -6,7 +6,7 @@ Direktlinks
 * [FAL Image](#fal-image-feld)
 * [Standard Image](#standard-image)
 * [Textarea](#textarea)
- 
+* [Input](#input) 
 
 ###Type Select###
 
@@ -115,3 +115,18 @@ mit Wizards:
             ),
         ),
 ````
+
+###Input###
+````
+'input_field' => array(
+            'exclude' => 1,
+            'label' => 'my Label',
+            'config' => array(
+                'type' => 'input',
+                'size' => 30,
+                'eval' => 'trim'
+            ),
+        ),
+````
+
+
