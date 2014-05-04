@@ -9,9 +9,9 @@
 | 0101 | -- Übersicht            | writing      | none        |      |
 | 0102 | -- Installation         | writing      | none        |      |
 | 0200 | **Multiblog**           |              | --          | --   |
-| 0201 | -- Übersicht            | ok           | none        |      |
-| 0202 | -- Online Demo          | ok           | none        |      | 
-| 0203 | -- Einrichtung          | ok           | none        |      |
+| 0201 | -- Übersicht            | ok           | none        | ok   |
+| 0202 | -- Online Demo          | ok           | none        | -    | 
+| 0203 | -- Einrichtung          | ok           | none        | ok   |
 | 0300 | **Projects And Tasks**  | --           | --          | --   |
 | 0301 | -- Übersicht            |              | none        |      |
 | 0400 | **Community**           |              | --          | --   |
