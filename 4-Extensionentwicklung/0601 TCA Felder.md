@@ -4,6 +4,9 @@
 Direktlinks
 * [select](#type-select)
 * [FAL Image](#fal-image-feld)
+* [Standard Image](#standard-image)
+* [Textarea](#textarea)
+ 
 
 ###Type Select###
 
