@@ -78,3 +78,34 @@ mit Wizards:
                     ), $GLOBALS['TYPO3_CONF_VARS']['GFX']['imagefile_ext']),
         ),
 ````
+
+###Standard Image###
+````
+        'image' => array(
+            'exclude' => 1,
+            'label' => 'My Image Label',
+            'config' => array(
+                'type' => 'group',
+                'internal_type' => 'file',
+                'uploadfolder' => 'uploads/tx_myext',
+                'show_thumbs' => 0,
+                'size' => 5,
+                'maxitems' => 99,
+                'allowed' => $GLOBALS['TYPO3_CONF_VARS']['GFX']['imagefile_ext'],
+                'disallowed' => '',
+            ),
+        ),
+````
+
+###Textarea###
+````
+        'textarea field' => array(
+            'exclude' => 1,
+            'label' => 'My textfield label',
+            'config' => array(
+                'type' => 'text',
+                'cols' => 40,
+                'rows' => 5
+            ),
+        ),
+````
