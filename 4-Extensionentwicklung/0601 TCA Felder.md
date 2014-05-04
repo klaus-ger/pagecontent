@@ -2,8 +2,8 @@
 
 ##TCA Felder##
 Direktlinks
-[select](#type-select)
-[FAL Imae](#fal-image-feld)
+* [select](#type-select)
+* [FAL Image](#fal-image-feld)
 
 ###Type Select###
 
