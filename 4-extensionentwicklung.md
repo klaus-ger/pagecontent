@@ -39,24 +39,24 @@
 
 **Backend Forms & Module**
 
-| ID   | Titel                          | Status       | Translation |
-| :--- | :----------------------------- | :----------: | :---------: |
-| 0600 | **TCA Forms BE Module**        | --           | -- |
-| 0601 | -- TCA Forms stylen            |              | none |
-| 0602 | -- Backend ViewHelper          |              | none |
-| 0603 | -- Components                  |              | none |
-| 0604 | -- Backend Module              |              | none |
-| 0605 | -- Eigene Modulgruppe          |              | none |
+| ID   | Titel                          | Status       | Translation | SO | Add |
+| :--- | :----------------------------- | :----------: | :---------: |:-- |:--- |
+| 0600 | **TCA Forms BE Module**        | --           | --          |    |     |
+| 0601 | -- TCA Forms stylen            |              | none        |    |     |
+| 0602 | -- Backend ViewHelper          |              | none        |    |     |
+| 0603 | -- Components                  |              | none        |    |     |
+| 0604 | -- Backend Module              |              | none        |    |     |
+| 0605 | -- Eigene Modulgruppe          |              | none        |    |     |
 
 **Cheat List**
 
-| ID   | Titel                          | Status       | Translation |
-| :--- | :----------------------------- | :----------: | :---------: |
-| 9000 | **CheatList Extbase**          | --           | -- |
-| 9001 | -- Controller                  |              | none |
-| 9002 | -- Model                       |              | none |
-| 9003 | -- Repository                  |              | none |
-| 9100 | **CheatList Fluid**            | --           | -- |
-| 9101 | -- Standard ViewHelper         |              | none |
-| 9102 | -- Widgets                     |              | none |
-| 9103 | -- eigene ViewHelper           |              | none |
+| ID   | Titel                          | Status       | Translation | SO | Add |
+| :--- | :----------------------------- | :----------: | :---------: |:-- |:--- |
+| 9000 | **CheatList Extbase**          | --           | --          |    |     |
+| 9001 | -- Controller                  |              | none        |    |     |
+| 9002 | -- Model                       |              | none        |    |     |
+| 9003 | -- Repository                  |              | none        |    |     |
+| 9100 | **CheatList Fluid**            | --           | --          |    |     |
+| 9101 | -- Standard ViewHelper         |              | none        |   |     |
+| 9102 | -- Widgets                     |              | none        |    |     |
+| 9103 | -- eigene ViewHelper           |              | none        |    |     |
