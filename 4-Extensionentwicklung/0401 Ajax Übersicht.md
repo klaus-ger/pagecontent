@@ -12,7 +12,7 @@ Die Grundüberlegung von Ajax ist, - unabhängig vom Mechanismus - einen möglic
 
 Also keinen Pageheader etc., sondern exakt genau nur die Daten die wir brauchen.
 
- <img src="../9-Images/Ajax_Action_.png" width="250px" align="top">.
+ <img src="../9-Images/Ajax-Action_.png" width="450px" align="top">.
 
 |      | eID | page Type |
 |------|-----|-----------|
