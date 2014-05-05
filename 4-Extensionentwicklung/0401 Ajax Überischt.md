@@ -16,8 +16,8 @@ Image
 
 |      | eID | page Type |
 |------|-----|-----------|
-| Einbindung in Extension | Dispatcher Class im Controller Verzeichnis | Definition pageType in Extension setup |
-|                         | eID include in ext-tables.php              |  |
+| Einbindung in Extension | • Dispatcher Class im Controller Verzeichnis | Definition pageType in Extension setup |
+|                         | • eID include in ext-tables.php              |  |
 | Ajax Aufruf             | Controller, Action, Parameter              | Controller, Action, Parameter |
 |                         |                                            | + PageType                    |
 | Rückgabe                | gewöhnlich json String                     | json String oder              |
