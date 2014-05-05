@@ -5,15 +5,15 @@
 
 **Basics**
 
-| ID   | Titel                          | Status       | Translation |
-| :--- | :----------------------------- | :----------: | :---------: |
-| 0101 | **Basics**                     | --           | -- |
-| 0101 | -- Basics                      | writing      | none | 
-| 0102 | -- DB Relationen               |              | none |
-| 0103 | -- EXT Setup                   |              | none |
-| 0104 | -- EXT Constants               |              | none |
-| 0105 | -- Plugins Flexforms           |              | none |
-| 0190 | -- Konzepte MVC & DDD          |              | none |
+| ID   | Titel                          | Status       | Translation | SO | Add |
+| :--- | :----------------------------- | :----------: | :---------: |    |     |
+| 0101 | **Basics**                     | --           | --          |    |     |
+| 0101 | -- Basics                      | writing      | none        |    |     | 
+| 0102 | -- DB Relationen               |              | none        |    |     |  
+| 0103 | -- EXT Setup                   |              | none        |    |     |
+| 0104 | -- EXT Constants               |              | none        |    |     |
+| 0105 | -- Plugins Flexforms           |              | none        |    |     |
+| 0190 | -- Konzepte MVC & DDD          |              | none        |    |     |
 
 
 **Erweiterte Funktionen**
