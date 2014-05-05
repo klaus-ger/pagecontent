@@ -19,7 +19,7 @@
 **Erweiterte Funktionen**
 
 | ID   | Titel                          | Status       | Translation | SO | Add |
-| :--- | :----------------------------- | :----------: | :---------: |:-- |:--- |
+| :--- | :----------------------------- | :----------: | :---------: |:-- |:---:|
 | 0200 | **Erw.  Funktionen**           | --           | --          |    |     |
 | 0201 | -- Base Controller             |              | none        |    |     |
 | 0202 | -- Meta Ausgaben               |              | none        |    |     |
@@ -29,8 +29,8 @@
 | 0302 | -- erw. Frontend Funktionen    |              | none        |    |     |
 | 0303 | -- Datenmigration              |              | none        |    |     |
 | 0400 | **Ajax in Extensions**         | --           | --          |    |     |
-| 0401 | -- Übersicht                   |              | none        |    |     |
-| 0402 | -- pageType                    |              | none        |    |     |
+| 0401 | -- Übersicht                   |              | none        |    | 3   |
+| 0402 | -- pageType                    |              | none        |    | 10  |
 | 0403 | -- EID Mechanismus             |              | none        |    |     |
 | 0500 | **Fluid Templating**           | --           | --          |    |     |
 | 0501 | -- Layouts, Templates, Partials|              | none        |    |     |
