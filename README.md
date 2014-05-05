@@ -4,4 +4,6 @@
 
 #ToDos#
 - [ ] Writing responsice template content
-- [ ] Structure of installation
+- [ ] Writing Ajax Page
+
+- [x] Structure of installation
