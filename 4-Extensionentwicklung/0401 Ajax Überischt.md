@@ -21,3 +21,54 @@ Image
 | Rückgabe                | gewöhnlich json String                     | json String oder <br /> html string des gefülleten Teplates  |
 | Controller Action Umgebung | kein TSFE geladen                          | TSFE geladen (settings, <br />mapped tables etc stehen zur Verfügung) |
 | Beispielanwendung       | • Nachladen von Werten für Select Felder  <br /> • autocomplete Funktionen | • Komplexe Seitenmanipulationen <br /> • ganze Bereiche ersetzten, da gefüllte <br />Templates als html string geliefert |
+
+* Natürlich ist es möglich auch über den eID Mechanismus das komplette TSFE zu laden, nur dann geht mir persönlich irgendwie der Charme gegenüber der PageType Lösung verloren. *
+
+
+###Fazit###
+Auch wenn das jeder etwas anders sieht, für einfache Listen, Autocomplete Funktionen nutze ich den eID Mechanismus.
+
+Da hier keine TSFE für die Controller Funktion aufgebaut wird, sollte das die schnellere Variante sein. Typische Fehler entstehen dadurch, das die innerhalb der Controlleraction keine settings wie z.B. storagePids bekannt sind. Entweder die storagePid im Ajax Aufruf als Parameter mitgeben oder die query entsprechend ändern.
+
+Braucht man jedoch umfangreiche Möglichkeiten in der Controller Action, wird man den Aufruf via PageType vorziehen. So hat man unbegrenzten Zugang zu mapped Tables (Fe-User etc) und allen Klassen die injected wurden. Das Ergebnis der aufgerufene ControllerAction kann auch normal an ein Template weitergereicht werden, das dann komplett in jQuery zur Verfügung steht.
+
+###Die Technik: eID Version###
+
+Eine komplette Beschreibung mit Snippets für TYPO3 6.1 findet Ihr hier: Ajax Dispatcher eID in TYPO3 6.1. Ich denke da ist alles ausfühlich beschrieben.
+
+###Die Technik: PageType###
+
+Wie in der oben bereits angemerkt, müsst Ihr euer Extsnionsetup um einen neuen PageType erweitern. Die PageType Nummer muss einmalig in der Installation sein, also ggf. bereits vergebene PageTypes für RSS, Sitemaps, Print & Co beachten. 
+
+````
+ajaxCall = PAGE
+ajaxCall {
+    typeNum = 999
+    config.disableAllHeaderCode = 1
+    config.metaCharset = UTF-8
+    10 = COA
+    10 <  styles.content.get
+    }
+    ````
+    
+    Mit dieser Einstellung könnt Ihr ganz normale euer Actionergebnis an einen View übergeben den Ihr dann komplett in Ajax zur Verfügung habt.
+
+Der AjaxCall in jQuery sieht dann ungefähr so aus: 
+
+````
+$.ajax({
+    var controller = tx_myExt_pi1[controller]= blabla;
+    var action = tx_myExt_pi1[action]= bub; // ohne Action am Ende
+    var pagetype = 999;
+    url: './?' + controller + '&' + action + '&type=' + pagetype
+    //optionale Parameter
+    data: 'useruid=' + useruid,
+    success: function(result) {
+        console.log(result);
+    },
+    error: function(error) {
+       console.log(error);
+    }
+});
+````
+Innerhalb von success:function(result) { } wird dann das Ergebnis ausgewertet und der View manipuliert.
