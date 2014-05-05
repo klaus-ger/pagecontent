@@ -16,7 +16,7 @@ Image
 
 |      | eID | page Type |
 |------|-----|-----------|
-| Einbindung in Extension | • Dispatcher Class im Controller Verzeichnis | Definition pageType in Extension setup |
+| Einbindung in Extension | • Dispatcher Class im Controller Verzeichnis<br />Test | Definition pageType in Extension setup |
 |                         | • eID include in ext-tables.php              |  |
 | Ajax Aufruf             | Controller, Action, Parameter              | Controller, Action, Parameter |
 |                         |                                            | + PageType                    |
