@@ -28,7 +28,7 @@ Also keinen Pageheader etc., sondern exakt genau nur die Daten die wir brauchen.
 
 
 ###Fazit###
-Auch wenn das jeder etwas anders sieht, für einfache Listen, Autocomplete Funktionen nutze ich den eID Mechanismus.
+Auch wenn das jeder etwas anders sieht, für einfache Listen, Autocomplete Funktionen nutze (bisher - siehe Nachtrag eID Version)ich den eID Mechanismus.
 
 Da hier keine TSFE für die Controller Funktion aufgebaut wird, sollte das die schnellere Variante sein. Typische Fehler entstehen dadurch, das die innerhalb der Controlleraction keine settings wie z.B. storagePids bekannt sind. Entweder die storagePid im Ajax Aufruf als Parameter mitgeben oder die query entsprechend ändern.
 
@@ -40,9 +40,11 @@ Eine komplette Beschreibung mit Snippets für TYPO3 6.1 findet Ihr hier: Ajax Di
 
 **Nachtrag:** Unter TYPO3 6.2 haben sich die im Dispatcher aufgerufenen Core Funktionen nochmal geändert. Der Bootstrap braucht jetzt weitere Parameter für die Initialisierung (Package Management). Im Core Quellcode ist auch ein endeutiger Hinweis diese Funktion nicht in eigenen Extensions zu benutzten. Da ich im Augenblick nicht absehen kann, was uns das Package Mangement noch alles bringt (die Bootstrap Function braucht das aktuelle Package), kann ich den eID Mechanismus so nicht mehr empfehlen. 
 
-zum eEid Dispatcher Artikel
 
 ###Die Technik: PageType###
+
+Die Verwendung eines einen page Types für Ajax Calls ist relativ simpel. Das wichtigste ist eine eigene page Num, auf dieser Seite habe ich die Vorgehensweise zusammengefasst:
+AjaxCalls mit Page Types
 
 Wie in der oben bereits angemerkt, müsst Ihr euer Extsnionsetup um einen neuen PageType erweitern. Die PageType Nummer muss einmalig in der Installation sein, also ggf. bereits vergebene PageTypes für RSS, Sitemaps, Print & Co beachten. 
 
