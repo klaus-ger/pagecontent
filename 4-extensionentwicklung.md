@@ -5,7 +5,7 @@
 
 **Basics**
 
-| ID   | Titel                          | Status       | Translation | SO | Add |
+| ID   | Titel......................... | Status       | Translation | SO | Add |
 | :--- | :----------------------------- | :----------: | :---------: |:-- |:--- |
 | 0101 | **Basics**                     | --           | --          |    |     |
 | 0101 | -- Basics                      | writing      | none        |    |     | 
