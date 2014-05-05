@@ -5,7 +5,7 @@
 
 **Basics**
 
-| ID   | Titel                        . | Status       | Translation | SO | Add |
+| ID   | Titel                          | Status       | Translation | SO | Add |
 | :--- | :----------------------------- | :----------: | :---------: |:-- |:--- |
 | 0101 | **Basics**                     | --           | --          |    |     |
 | 0101 | -- Basics                      | writing      | none        |    |     | 
@@ -18,24 +18,24 @@
 
 **Erweiterte Funktionen**
 
-| ID   | Titel                          | Status       | Translation |
-| :--- | :----------------------------- | :----------: | :---------: |
-| 0200 | **Erw.  Funktionen**           | --           | --   |
-| 0201 | -- Base Controller             |              | none |
-| 0202 | -- Meta Ausgaben               |              | none |
-| 0203 | -- Libaries nutzen             |              | none |
-| 0300 | **FAL Handling**               | --           | --   |
-| 0301 | -- Standard                    |              | none |
-| 0302 | -- erw. Frontend Funktionen    |              | none |
-| 0303 | -- Datenmigration              |              | none |
-| 0400 | **Ajax in Extensions**         | --           | -- |
-| 0401 | -- Übersicht                   |              | none |
-| 0402 | -- pageType                    |              | none |
-| 0403 | -- EID Mechanismus             |              | none |
-| 0500 | **Fluid Templating**           | --           | -- |
-| 0501 | -- Layouts, Templates, Partials|              | none |
-| 0502 | -- ViewHelper erstellen        |              | none |
-| 0503 | -- VHS, Fed, Flux              |              | none |
+| ID   | Titel                          | Status       | Translation | SO | Add |
+| :--- | :----------------------------- | :----------: | :---------: |:-- |:--- |
+| 0200 | **Erw.  Funktionen**           | --           | --          |    |     |
+| 0201 | -- Base Controller             |              | none        |    |     |
+| 0202 | -- Meta Ausgaben               |              | none        |    |     |
+| 0203 | -- Libaries nutzen             |              | none        |    |     |
+| 0300 | **FAL Handling**               | --           | --          |    |     |
+| 0301 | -- Standard                    |              | none        |    |     |
+| 0302 | -- erw. Frontend Funktionen    |              | none        |    |     |
+| 0303 | -- Datenmigration              |              | none        |    |     |
+| 0400 | **Ajax in Extensions**         | --           | --          |    |     |
+| 0401 | -- Übersicht                   |              | none        |    |     |
+| 0402 | -- pageType                    |              | none        |    |     |
+| 0403 | -- EID Mechanismus             |              | none        |    |     |
+| 0500 | **Fluid Templating**           | --           | --          |    |     |
+| 0501 | -- Layouts, Templates, Partials|              | none        |    |     |
+| 0502 | -- ViewHelper erstellen        |              | none        |    |     |
+| 0503 | -- VHS, Fed, Flux              |              | none        |    |     |
 
 **Backend Forms & Module**
 
