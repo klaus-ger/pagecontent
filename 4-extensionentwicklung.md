@@ -3,6 +3,8 @@
 
 ###4. Extensionentwicklung###
 
+**Basics**
+
 | ID   | Titel                          | Status       | Translation |
 | :--- | :----------------------------- | :----------: | :---------: |
 | 0101 | **Basics**                     | --           | -- |
@@ -12,7 +14,12 @@
 | 0104 | -- EXT Constants               |              | none |
 | 0105 | -- Plugins Flexforms           |              | none |
 | 0190 | -- Konzepte MVC & DDD          |              | none |
-| 0200 | **Erw. Controller Funktionen** | --           | --   |
+
+
+**Erweiterte Funktionen**
+| ID   | Titel                          | Status       | Translation |
+| :--- | :----------------------------- | :----------: | :---------: |
+| 0200 | **Erw.  Funktionen**           | --           | --   |
 | 0201 | -- Base Controller             |              | none |
 | 0202 | -- Meta Ausgaben               |              | none |
 | 0203 | -- Libaries nutzen             |              | none |
@@ -34,6 +41,10 @@
 | 0603 | -- Components                  |              | none |
 | 0604 | -- Backend Module              |              | none |
 | 0605 | -- Eigene Modulgruppe          |              | none |
+
+**Cheat List**
+| ID   | Titel                          | Status       | Translation |
+| :--- | :----------------------------- | :----------: | :---------: |
 | 9000 | **CheatList Extbase**          | --           | -- |
 | 9001 | -- Controller                  |              | none |
 | 9002 | -- Model                       |              | none |
