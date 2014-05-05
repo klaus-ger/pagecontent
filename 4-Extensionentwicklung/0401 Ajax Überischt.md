@@ -22,6 +22,8 @@ Image
 |                         |                                            | + PageType                    |
 | Rückgabe                | gewöhnlich json String                     | json String oder              |
 |                         |                                            | html des gefülleten Teplates  |
-| Controller Action       | kein TSFE geladen                          | TSFE geladen (settings,       |
+| Controller Action Umgebung | kein TSFE geladen                          | TSFE geladen (settings,       |
 |                         |                                            | mapped tables etc stehen zur Verfügung) |
 | Beispielanwendung       | Nachladen von Werten für Select Felder     | Komplexe Seitenmanipulationen |
+|                         | autocomplete Funktionen                    | ganze Bereiche ersetzten, da gefüllte|
+|                         |                                            | Templates als html string geliefert|
