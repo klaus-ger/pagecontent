@@ -17,7 +17,7 @@ ajaxCall {
     config.disableAllHeaderCode = 1
     config.metaCharset = UTF-8
     10 = COA
-    10 <  styles.content.get
+    10 < tt_content.list.20.myextension_myplugin
     }
 ````
     
@@ -25,21 +25,25 @@ ajaxCall {
 Der AjaxCall in jQuery sieht dann ungefähr so aus: 
 
 ````
-$.ajax({
-    var controller = tx_myExt_pi1[controller]= blabla;
-    var action = tx_myExt_pi1[action]= bub; // ohne Action am Ende
-    var pagetype = 999;
-    url: './?' + controller + '&' + action + '&type=' + pagetype
-    //optionale Parameter
-    data: 'useruid=' + useruid,
-    success: function(result) {
-        console.log(result);
-    },
-    error: function(error) {
-       console.log(error);
-    }
+$('#jq-send').click(function(e) {
+    $.ajax({
+        var controller = tx_myExt_pi1[controller]= blabla;
+        var action = tx_myExt_pi1[action]= meine Function; // ohne Action am Ende
+        var pagetype = 999;
+        url: '/?' + controller + '&' + action + '&type=' + pagetype
+        //optionale Parameter
+        data: 'useruid=' + useruid,
+        success: function(result) {
+            console.log(result);
+        },
+        error: function(error) {
+         console.log(error);
+        }
+    });
 });
 ````
+ Ein Beispiel findet ihr auch in meiner Blogextension "multiblog" auf Guthub: 
+ 
  
  Mit dieser Einstellung könnt Ihr ganz normale euer Actionergebnis an einen View übergeben den Ihr dann komplett in Ajax zur Verfügung habt.
 
