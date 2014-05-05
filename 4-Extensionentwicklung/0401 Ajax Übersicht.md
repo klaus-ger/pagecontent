@@ -6,13 +6,15 @@ Beide haben ein ähnliches Funktionsprinzip, unterscheiden sich aber deutlich in
 
 ##Ajax und Extbase: eID oder Page Type nutzen?##
 
-Unabhäng von der Fragestellung eID oder PageType hier einmal das Grundschema eines Ajax Aufrufes. Einsteigern in die Thematik ist oftmals nicht klar, das der Serverresponse in jQuery ausgewertet werden muss. Ohne eine result Function, ändert sich auch nichts im Fronend ;)
+Unabhäng von der Fragestellung eID oder PageType hier einmal das Grundschema eines Ajax Aufrufes. Einsteigern in die Thematik ist oftmals nicht klar, das der Serverresponse in jQuery ausgewertet werden muss. Ohne eine Result-Success-Function, ändert sich auch nichts im Fronend ;)
 
-Die Grundüberlegung von Ajax ist, - unabhängig vom Mechanismus - einen möglichst kleinen Datensatz vom Server zurück zu erhalten den wir dann per jQuery auswerten und den View manipulieren (Punkt 4 + 5).
+Die Grundüberlegung von Ajax ist, - unabhängig vom Mechanismus - einen möglichst kleinen Datensatz vom Server zurück zu erhalten den wir dann per jQuery auswerten und den View manipulieren (Punkt 4 + 5) - ganz ohne Seitenreload.
 
 Also keinen Pageheader etc., sondern exakt genau nur die Daten die wir brauchen.
 
  <img src="../9-Images/Ajax-Action_.png" width="450px" align="top">.
+
+**Gegenüberstellung eID Mechanismus und pageType**
 
 |      | eID | page Type |
 |------|-----|-----------|
@@ -22,7 +24,7 @@ Also keinen Pageheader etc., sondern exakt genau nur die Daten die wir brauchen.
 | Controller Action Umgebung | kein TSFE geladen                          | TSFE geladen (settings, <br />mapped tables etc stehen zur Verfügung) |
 | Beispielanwendung       | • Nachladen von Werten für Select Felder  <br /> • autocomplete Funktionen | • Komplexe Seitenmanipulationen <br /> • ganze Bereiche ersetzten, da gefüllte <br />Templates als html string geliefert |
 
-* Natürlich ist es möglich auch über den eID Mechanismus das komplette TSFE zu laden, nur dann geht mir persönlich irgendwie der Charme gegenüber der PageType Lösung verloren. *
+*Natürlich ist es möglich auch über den eID Mechanismus das komplette TSFE zu laden, nur dann geht mir persönlich irgendwie der Charme gegenüber der PageType Lösung verloren.*
 
 
 ###Fazit###
@@ -35,6 +37,10 @@ Braucht man jedoch umfangreiche Möglichkeiten in der Controller Action, wird ma
 ###Die Technik: eID Version###
 
 Eine komplette Beschreibung mit Snippets für TYPO3 6.1 findet Ihr hier: Ajax Dispatcher eID in TYPO3 6.1. Ich denke da ist alles ausfühlich beschrieben.
+
+**Nachtrag:** Unter TYPO3 6.2 haben sich die im Dispatcher aufgerufenen Core Funktionen nochmal geändert. Der Bootstrap braucht jetzt weitere Parameter für die Initialisierung (Package Management). Im Core Quellcode ist auch ein endeutiger Hinweis diese Funktion nicht in eigenen Extensions zu benutzten. Da ich im Augenblick nicht absehen kann, was uns das Package Mangement noch alles bringt (die Bootstrap Function braucht das aktuelle Package), kann ich den eID Mechanismus so nicht mehr empfehlen. 
+
+zum eEid Dispatcher Artikel
 
 ###Die Technik: PageType###
 
