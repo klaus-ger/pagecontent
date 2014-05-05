@@ -30,8 +30,8 @@
 | 0303 | -- Datenmigration              |              | none        |    |     |
 | 0400 | **Ajax in Extensions**         | --           | --          |    |     |
 | 0401 | -- Übersicht                   |              | none        |    | 3   |
-| 0402 | -- pageType                    |              | none        |    | 10  |
-| 0403 | -- EID Mechanismus             |              | none        |    |     |
+| 0402 | -- pageType                    |              | none        |    |     |
+| 0403 | -- EID Mechanismus             |              | none        |    | 10  |
 | 0500 | **Fluid Templating**           | --           | --          |    |     |
 | 0501 | -- Layouts, Templates, Partials|              | none        |    |     |
 | 0502 | -- ViewHelper erstellen        |              | none        |    |     |
