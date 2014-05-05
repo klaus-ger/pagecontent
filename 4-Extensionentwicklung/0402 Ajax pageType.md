@@ -42,9 +42,27 @@ $('#jq-send').click(function(e) {
     });
 });
 ````
- Ein Beispiel findet ihr auch in meiner Blogextension "multiblog" auf Guthub: 
+ Ein Beispiel findet ihr auch in meiner Blogextension "multiblog" auf Github: 
  
+ ###Controller###
+ Eure Controllerfunction muss natürlich wie jede Action in der ext_localconf.php registriert sein. Innerhalb dieser Action stehet euch die ganz normale Extbase Umgebung zur Verfügun, also alles das was ihr in 'normalen' Funktion auch habt (injected Repositories, mapped Tables, setting, persistance Angaben etc.) 
  
- Mit dieser Einstellung könnt Ihr ganz normale euer Actionergebnis an einen View übergeben den Ihr dann komplett in Ajax zur Verfügung habt.
+Am Ende der Funktion müsst Ihr euch nur entscheiden, was Ihr zurückgeben wollt:
 
+Rückgabe eine json strings (z.B. Ergebnisarray):
+
+    return json_decode(4myArray)
+
+
+Rückgabe eines kompletten Views als html string.
+Am Ende der Ajax Funktion im Controller setzt Ihr ganz normal euren view (template muss vorhanden sein)
+
+    $this->view->assign('myAjaxAction, $values);
+    
+Keinerlei Rückgabe
+z.B wenn Ihr nur Daten speichert z.B. für einen counter:
+    
+    exit;
+    
+    
 Innerhalb von success:function(result) { } wird dann das Ergebnis ausgewertet und der View manipuliert.
