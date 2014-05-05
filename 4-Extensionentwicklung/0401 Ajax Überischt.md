@@ -11,3 +11,10 @@ Unabhäng von der Fragestellung eID oder PageType hier einmal das Grundschema ei
 Die Grundüberlegung von Ajax ist, - unabhängig vom Mechanismus - einen möglichst kleinen Datensatz vom Server zurück zu erhalten den wir dann per jQuery auswerten und den View manipulieren (Punkt 4 + 5).
 
 Also keinen Pageheader etc., sondern exakt genau nur die Daten die wir brauchen.
+
+Image
+
+|      | eID | page Type |
+|------|-----|-----------|
+| Einbindung in Extension | Dispatcher Class im Controller Verzeichnis | Definition pageType in Extension setup 
+|                         | eID include in ext-tables.php              | Typoscript) |
