@@ -17,6 +17,7 @@
 
 
 **Erweiterte Funktionen**
+
 | ID   | Titel                          | Status       | Translation |
 | :--- | :----------------------------- | :----------: | :---------: |
 | 0200 | **Erw.  Funktionen**           | --           | --   |
@@ -43,6 +44,7 @@
 | 0605 | -- Eigene Modulgruppe          |              | none |
 
 **Cheat List**
+
 | ID   | Titel                          | Status       | Translation |
 | :--- | :----------------------------- | :----------: | :---------: |
 | 9000 | **CheatList Extbase**          | --           | -- |
