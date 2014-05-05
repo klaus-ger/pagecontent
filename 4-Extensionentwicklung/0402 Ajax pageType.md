@@ -44,7 +44,7 @@ $('#jq-send').click(function(e) {
 ````
  Ein Beispiel findet ihr auch in meiner Blogextension "multiblog" auf Github: 
  
- ###Controller###
+###Controller###
  
  Eure Controllerfunction muss natürlich wie jede Action in der ext_localconf.php registriert sein. Innerhalb dieser Action stehet euch die ganz normale Extbase Umgebung zur Verfügun, also alles das was ihr in 'normalen' Funktion auch habt (injected Repositories, mapped Tables, setting, persistance Angaben etc.) 
  
