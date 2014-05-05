@@ -6,10 +6,7 @@ Beide haben ein ähnliches Funktionsprinzip, unterscheiden sich aber deutlich in
 
 ##AjaxCalls über pageType##
 
-Die Verwendung eines einen page Types für Ajax Calls ist relativ simpel. Das wichtigste ist eine eigene page Num, auf dieser Seite habe ich die Vorgehensweise zusammengefasst:
-AjaxCalls mit Page Types
-
-Wie in der oben bereits angemerkt, müsst Ihr euer Extsnionsetup um einen neuen PageType erweitern. Die PageType Nummer muss einmalig in der Installation sein, also ggf. bereits vergebene PageTypes für RSS, Sitemaps, Print & Co beachten. 
+Die Verwendung eines einen page Types für Ajax Calls ist relativ simpel. Ihr müsst zunächst euer Extensionsetup um einen neuen PageType erweitern. Die PageType Nummer muss einmalig in der Installation sein, also ggf. bereits vergebene PageTypes für RSS, Sitemaps, Print & Co beachten. 
 
 ````
 ajaxCall = PAGE
