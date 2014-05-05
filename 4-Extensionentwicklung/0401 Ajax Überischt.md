@@ -55,7 +55,7 @@ ajaxCall {
 
 Der AjaxCall in jQuery sieht dann ungefähr so aus: 
 
-````
+ ````
 $.ajax({
     var controller = tx_myExt_pi1[controller]= blabla;
     var action = tx_myExt_pi1[action]= bub; // ohne Action am Ende
@@ -70,5 +70,7 @@ $.ajax({
        console.log(error);
     }
 });
-````
+ ````
+ 
+ 
 Innerhalb von success:function(result) { } wird dann das Ergebnis ausgewertet und der View manipuliert.
