@@ -17,12 +17,7 @@ Image
 |      | eID | page Type |
 |------|-----|-----------|
 | Einbindung in Extension | • Dispatcher Class im Controller Verzeichnis<br />• eID include in ext-tables.php | Definition pageType in Extension setup |
-| Ajax Aufruf             | Controller, Action, Parameter              | Controller, Action, Parameter |
-|                         |                                            | + PageType                    |
-| Rückgabe                | gewöhnlich json String                     | json String oder              |
-|                         |                                            | html des gefülleten Teplates  |
-| Controller Action Umgebung | kein TSFE geladen                          | TSFE geladen (settings,       |
-|                         |                                            | mapped tables etc stehen zur Verfügung) |
-| Beispielanwendung       | Nachladen von Werten für Select Felder     | Komplexe Seitenmanipulationen |
-|                         | autocomplete Funktionen                    | ganze Bereiche ersetzten, da gefüllte|
-|                         |                                            | Templates als html string geliefert|
+| Ajax Aufruf             | Controller, Action, Parameter              | Controller, Action, Parameter <br />+ PageType |
+| Rückgabe                | gewöhnlich json String                     | json String oder <br /> html string des gefülleten Teplates  |
+| Controller Action Umgebung | kein TSFE geladen                          | TSFE geladen (settings, <br />mapped tables etc stehen zur Verfügung) |
+| Beispielanwendung       | • Nachladen von Werten für Select Felder  <br /> • autocomplete Funktionen | • Komplexe Seitenmanipulationen <br /> • ganze Bereiche ersetzten, da gefüllte <br />Templates als html string geliefert |
