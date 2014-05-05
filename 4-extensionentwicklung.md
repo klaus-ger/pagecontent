@@ -9,7 +9,8 @@
 | 0101 | -- Basics                      | writing      | none | 
 | 0102 | -- DB Relationen               |              | none |
 | 0103 | -- EXT Setup                   |              | none |
-| 0104 | -- Plugins Flexforms           |              | none |
+| 0104 | -- EXT Constants               |              | none |
+| 0105 | -- Plugins Flexforms           |              | none |
 | 0190 | -- Konzepte MVC & DDD          |              | none |
 | 0200 | **Erw. Controller Funktionen** | --           | --   |
 | 0201 | -- Base Controller             |              | none |
