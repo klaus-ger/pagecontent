@@ -6,7 +6,9 @@ Beide haben ein ähnliches Funktionsprinzip, unterscheiden sich aber deutlich in
 
 ##AjaxCalls über pageType##
 
-Die Verwendung eines einen page Types für Ajax Calls ist relativ simpel. Ihr müsst zunächst euer Extensionsetup um einen neuen PageType erweitern. Die PageType Nummer muss einmalig in der Installation sein, also ggf. bereits vergebene PageTypes für RSS, Sitemaps, Print & Co beachten. 
+Die Verwendung eines eigenen page Types für Ajax Calls ist relativ simpel. Ihr müsst zunächst euer Extensionsetup um einen neuen PageType erweitern. Die PageType Nummer muss einmalig in der Installation sein, also ggf. bereits vergebene PageTypes für RSS, Sitemaps, Print & Co beachten. 
+
+Extensionsetup
 
 ````
 ajaxCall = PAGE
@@ -19,7 +21,6 @@ ajaxCall {
     }
 ````
     
-Mit dieser Einstellung könnt Ihr ganz normale euer Actionergebnis an einen View übergeben den Ihr dann komplett in Ajax zur Verfügung habt.
 
 Der AjaxCall in jQuery sieht dann ungefähr so aus: 
 
@@ -40,5 +41,6 @@ $.ajax({
 });
 ````
  
- 
+ Mit dieser Einstellung könnt Ihr ganz normale euer Actionergebnis an einen View übergeben den Ihr dann komplett in Ajax zur Verfügung habt.
+
 Innerhalb von success:function(result) { } wird dann das Ergebnis ausgewertet und der View manipuliert.
