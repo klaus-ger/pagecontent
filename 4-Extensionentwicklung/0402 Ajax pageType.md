@@ -46,7 +46,7 @@ $('#jq-send').click(function(e) {
  
 ###Controller###
  
-Die Controllerfunction muss natürlich wie jede Action in der ext_localconf.php registriert sein. Innerhalb dieser Action steht euch die ganz normale Extbase Umgebung zur Verfügung, also alles das was ihr in 'normalen' Funktionen auch habt (injected Repositories, mapped Tables, setting etc.) Genau das ist der Unterschied zu einem AjaxCall über eID, das komplette TSFE ist geladen.
+Die Controllerfunction muss natürlich wie jede Action in der ext_localconf.php registriert sein. Innerhalb dieser Action steht euch die ganz normale Extbase Umgebung zur Verfügung, also alles das was ihr in 'normalen' Funktionen auch habt (injected Repositories, mapped Tables, settings etc.) Genau das ist der Unterschied zu einem AjaxCall über eID, das komplette TSFE ist geladen.
  
 Am Ende der Funktion müsst Ihr euch nur entscheiden, was Ihr zurückgeben wollt:
 
@@ -61,7 +61,7 @@ Am Ende der Ajax Funktion im Controller setzt Ihr ganz normal euren View (Templa
     $this->view->assign('myAjaxAction, $values);
     
 Keinerlei Rückgabe
-z.B wenn Ihr nur Daten speichert z.B. für einen Counter:
+z.B wenn Ihr nur Daten nur für einen Counter speichert:
     
     exit;
     
