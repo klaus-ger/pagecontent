@@ -6,7 +6,7 @@ Beide haben ein ähnliches Funktionsprinzip, unterscheiden sich aber deutlich in
 
 ##AjaxCalls über pageType##
 
-Die Verwendung eines eigenen page Types für Ajax Calls ist relativ simpel. Ihr müsst zunächst euer Extensionsetup um einen neuen PageType erweitern. Die PageType Nummer muss einmalig in der Installation sein, also ggf. bereits vergebene PageTypes für RSS, Sitemaps, Print & Co beachten. 
+Die Verwendung eines eigenen page Types für Ajax Calls ist relativ simpel. Zunächst müsst ihr euer Extensionsetup um einen neuen PageType erweitern. Die PageType Nummer muss einmalig in der Installation sein, also ggf. bereits vergebene PageTypes für RSS, Sitemaps, Print & Co beachten. 
 
 Extensionsetup
 
@@ -27,8 +27,8 @@ Der AjaxCall in jQuery sieht dann ungefähr so aus:
 ````
 $('#jq-send').click(function(e) {
     $.ajax({
-        var controller = tx_myExt_pi1[controller]= blabla;
-        var action = tx_myExt_pi1[action]= meine Function; // ohne Action am Ende
+        var controller = tx_myExt_myplugin[controller]= blabla;
+        var action = tx_myExt_myplugin[action]= meineControllerFunction; // ohne Action am Ende
         var pagetype = 999;
         url: '/?' + controller + '&' + action + '&type=' + pagetype
         //optionale Parameter
@@ -46,24 +46,24 @@ $('#jq-send').click(function(e) {
  
 ###Controller###
  
- Eure Controllerfunction muss natürlich wie jede Action in der ext_localconf.php registriert sein. Innerhalb dieser Action stehet euch die ganz normale Extbase Umgebung zur Verfügun, also alles das was ihr in 'normalen' Funktion auch habt (injected Repositories, mapped Tables, setting, persistance Angaben etc.) 
+Die Controllerfunction muss natürlich wie jede Action in der ext_localconf.php registriert sein. Innerhalb dieser Action steht euch die ganz normale Extbase Umgebung zur Verfügung, also alles das was ihr in 'normalen' Funktionen auch habt (injected Repositories, mapped Tables, setting etc.) Genau das ist der Unterschied zu einem AjaxCall über eID, das komplette TSFE ist geladen.
  
 Am Ende der Funktion müsst Ihr euch nur entscheiden, was Ihr zurückgeben wollt:
 
 Rückgabe eine json strings (z.B. Ergebnisarray):
 
-    return json_decode(4myArray)
+    return json_decode($myArray)
 
 
 Rückgabe eines kompletten Views als html string.
-Am Ende der Ajax Funktion im Controller setzt Ihr ganz normal euren view (template muss vorhanden sein)
+Am Ende der Ajax Funktion im Controller setzt Ihr ganz normal euren View (Template muss vorhanden sein)
 
     $this->view->assign('myAjaxAction, $values);
     
 Keinerlei Rückgabe
-z.B wenn Ihr nur Daten speichert z.B. für einen counter:
+z.B wenn Ihr nur Daten speichert z.B. für einen Counter:
     
     exit;
     
     
-Innerhalb von success:function(result) { } wird dann das Ergebnis ausgewertet und der View manipuliert.
+Innerhalb von der jQuery Funktion success:function(result) { } wird dann das Ergebnis ausgewertet. Die vom Controller  zurückgegebenen Werte stehen in der Variablen result zur Verfügung.
