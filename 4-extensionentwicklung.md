@@ -13,7 +13,9 @@
 | 0103 | -- EXT Setup                   |              | none        |    |     |
 | 0104 | -- EXT Constants               |              | none        |    |     |
 | 0105 | -- Plugins Flexforms           |              | none        |    |     |
-| 0190 | -- Konzepte MVC & DDD          |              | none        |    |     |
+| 0190 | **Extbase / Fluid Konzepte**   |              | none        |    |     |
+| 0191 | -- MVC                         |              | none        |    |     |
+| 0192 | -- DDD                         |              | none        |    |     |
 
 
 **Erweiterte Funktionen**
