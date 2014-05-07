@@ -6,7 +6,7 @@ Datei: ext_tables.php
 
 ````
     /**
-     * My Bakcendmodul
+     * My Backendmodul
      */
     \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
             'Vendor.' . $_EXTKEY, 'web', 'mymodulname', // Submodule key
