@@ -5,8 +5,7 @@
 ###BE Container ViewHelper###
 
 ````
-* <code title="All options (except deprecated ones)">
- * <f:be.container pageTitle="foo" 
+<f:be.container pageTitle="foo" 
         enableJumpToUrl="false" 
         enableClickMenu="false" 
         loadPrototype="false" 
@@ -25,6 +24,6 @@
         your module content
         
         </f:be.container>
- * </code>
+
  
  ````
