@@ -20,3 +20,21 @@ Datei: ext_tables.php
             )
     );
 ````
+
+Um die Templates sauber von den Frontendtemplates zu trennen, können wir folgende Ordnerstrutur im Verzeichnis MyExtension/Resources/Private anlegen:
+
+ - Backend/Layouts
+ - Backend/Partials
+ - Backend/Templates
+ 
+Das Mapping erfolgt durch folgenden Eintrag in der Extensionsetup:
+
+````
+module.tx_myextension {
+	view {
+		templateRootPath = EXT:myextension/Resources/Private/Backend/Templates/
+		partialRootPath  = EXT:myextension/Resources/Private/Backend/Partials/
+		layoutRootPath   = EXT:myextension/Resources/Private/Backend/Layouts/
+	}
+}
+````
