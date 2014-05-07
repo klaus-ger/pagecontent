@@ -38,3 +38,5 @@ module.tx_myextension {
 	}
 }
 ````
+
+Im Verzeichnis Backend/Template muss jetzt für unseren Controller 'MyBackendController' ein gleichnamiger Ordner angelegt werden. Für jede Action im Controller brauchen wir auch hier eine eigenes HTML Template.
