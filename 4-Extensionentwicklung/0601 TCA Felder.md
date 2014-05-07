@@ -69,6 +69,25 @@ mit Wizards:
             ),
         ),
   ````
+  
+mit festen Auswahlwerten und Icons
+
+````
+'color' => array(
+            'exclude' => 1,
+            'label' => 'My Field Label',
+            'config' => array(
+                'type' => 'select',
+                'items' => array(
+                    array('grau', '474747'  , 'EXT:myextension/Resources/Public/Icons/color_474747.gif'),
+                    array('gelb', 'efcc00'  , 'EXT:myextension/Resources/Public/Icons/color_efcc00.gif'),
+                    
+                    )               
+            ),
+        ),
+        
+````
+
 
 ###FAL Image Feld###
 ````
