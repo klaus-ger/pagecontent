@@ -2,11 +2,38 @@
 
 ##TCA Felder##
 Direktlinks
+* [Input](#input) 
+* [Textarea](#textarea)
 * [select](#type-select)
 * [FAL Image](#fal-image-feld)
 * [Standard Image](#standard-image)
-* [Textarea](#textarea)
-* [Input](#input) 
+
+###Input###
+````
+'input_field' => array(
+            'exclude' => 1,
+            'label' => 'my Label',
+            'config' => array(
+                'type' => 'input',
+                'size' => 30,
+                'eval' => 'trim'
+            ),
+        ),
+````
+
+###Textarea###
+````
+        'textarea field' => array(
+            'exclude' => 1,
+            'label' => 'My textfield label',
+            'config' => array(
+                'type' => 'text',
+                'cols' => 40,
+                'rows' => 5
+            ),
+        ),
+````
+
 
 ###Type Select###
 
@@ -122,30 +149,8 @@ mit festen Auswahlwerten und Icons
         ),
 ````
 
-###Textarea###
-````
-        'textarea field' => array(
-            'exclude' => 1,
-            'label' => 'My textfield label',
-            'config' => array(
-                'type' => 'text',
-                'cols' => 40,
-                'rows' => 5
-            ),
-        ),
-````
 
-###Input###
-````
-'input_field' => array(
-            'exclude' => 1,
-            'label' => 'my Label',
-            'config' => array(
-                'type' => 'input',
-                'size' => 30,
-                'eval' => 'trim'
-            ),
-        ),
-````
+
+
 
 
