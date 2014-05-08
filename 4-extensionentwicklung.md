@@ -45,7 +45,8 @@
 | ID   | Titel                          | Status       | Translation | SO | Add |
 | :--- | :----------------------------- | :----------: | :---------: |:-- |:--- |
 | 0600 | **TCA Forms**                  | --           | --          |    |     |
-| 0601 | -- TCA Forms stylen            |              | none        |    |     |
+| 0601 | -- TCA allgemein??             |              | none        |    |     |
+| 0605 | -- TCA Forms stylen            |              | none        |    |     |
 | 0610 | -- user fields                 |              | none        |    |     |
 | 0650 | **Eigene Backend Module**      | --           | --          |    |     |
 | 0651 | -- Backend Module              |              | none        |    |     |
