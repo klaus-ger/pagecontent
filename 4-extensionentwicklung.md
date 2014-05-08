@@ -5,19 +5,20 @@
 
 **Basics**
 
-| ID   | Titel                             | Status       | Translation | SO | Add |
-| :--- | :-------------------------------- | :----------: | :---------: |:-- |:--- |
-| 0101 | **Die erste Extension erstellen** | --           | --          |    |     |
-| 0101 | -- Basics                         | writing      | none        |    |     | 
-| 0102 | -- DB Relationen                  |              | none        |    |     | 
-| 0110 | **EXT Setup und Conifuration**    |              | none        |    |     | 
-| 0111 | -- EXT Setup                      |              | none        |    |     |
-| 0112 | -- EXT Constants                  |              | none        |    |     |
-| 0115 | -- EXT config Template            |              | none        |    |     |
-| 0120 | -- Plugins Flexforms              |              | none        |    |     |
-| 0190 | **Extbase / Fluid Konzepte**      |              | none        |    |     |
-| 0191 | -- MVC                            |              | none        |    |     |
-| 0192 | -- DDD                            |              | none        |    |     |
+| ID   | Titel                               | Status       | Translation | SO | Add |
+| :--- | :---------------------------------- | :----------: | :---------: |:-- |:--- |
+| 0101 | **Die erste Extension erstellen**   | --           | --          |    |     |
+| 0101 | -- Basics                           | writing      | none        |    |     | 
+| 0102 | -- DB Relationen                    |              | none        |    |     | 
+| 0110 | **EXT Setup und Conifuration**      |              | none        |    |     | 
+| 0111 | -- EXT Setup                        |              | none        |    |     |
+| 0112 | -- EXT Constants                    |              | none        |    |     |
+| 0113 | -- EXT Constants im Template Editor |              | none        |    |     |
+| 0115 | -- EXT config Template              |              | none        |    |     |
+| 0120 | -- Plugins Flexforms                |              | none        |    |     |
+| 0190 | **Extbase / Fluid Konzepte**        |              | none        |    |     |
+| 0191 | -- MVC                              |              | none        |    |     |
+| 0192 | -- DDD                              |              | none        |    |     |
 
 
 **Erweiterte Funktionen**
