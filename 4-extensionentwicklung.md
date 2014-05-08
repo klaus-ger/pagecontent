@@ -20,6 +20,8 @@
 
 **Erweiterte Funktionen**
 
+Eigene Extensions erweitern und anpassen.
+
 | ID   | Titel                          | Status       | Translation | SO | Add |
 | :--- | :----------------------------- | :----------: | :---------: |:-- |:---:|
 | 0200 | **allgemein**                  | --           | --          |    |     |
@@ -41,6 +43,8 @@
 | 0503 | -- VHS, Fed, Flux              |              | none        |    |     |
 
 **Backend Forms & Module**
+
+Das TCA, Backend Forms und eigene Module.
 
 | ID   | Titel                          | Status       | Translation | SO | Add |
 | :--- | :----------------------------- | :----------: | :---------: |:-- |:--- |
