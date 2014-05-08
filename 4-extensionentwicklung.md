@@ -52,7 +52,7 @@ Das TCA, Backend Forms und eigene Module.
 | 0601 | -- TCA allgemein??             |              | none        |    |     |
 | 0604 | -- Type & Pallets              |              | none        |    |     |
 | 0605 | -- TCA columns (Feld styling)  |              | none        |    |     |
-| 0610 | -- user fields                 |              | none        |    |     |
+| 0610 | -- user labels                 |              | none        |    |     |
 | 0650 | **Eigene Backend Module**      | --           | --          |    |     |
 | 0651 | -- Backend Module              |              | none        |    |     |
 | 0652 | -- Backend ViewHelper          |              | none        |    |     |
