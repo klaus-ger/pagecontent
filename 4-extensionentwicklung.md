@@ -12,7 +12,8 @@
 | 0102 | -- DB Relationen               |              | none        |    |     |  
 | 0103 | -- EXT Setup                   |              | none        |    |     |
 | 0104 | -- EXT Constants               |              | none        |    |     |
-| 0105 | -- Plugins Flexforms           |              | none        |    |     |
+| 0110 | -- EXT config Template         |              | none        |    |     |
+| 0120 | -- Plugins Flexforms           |              | none        |    |     |
 | 0190 | **Extbase / Fluid Konzepte**   |              | none        |    |     |
 | 0191 | -- MVC                         |              | none        |    |     |
 | 0192 | -- DDD                         |              | none        |    |     |
