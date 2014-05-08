@@ -46,6 +46,7 @@
 | :--- | :----------------------------- | :----------: | :---------: |:-- |:--- |
 | 0600 | **TCA Forms**                  | --           | --          |    |     |
 | 0601 | -- TCA Forms stylen            |              | none        |    |     |
+| 0610 | -- user fields                 |              | none        |    |     |
 | 0650 | **Eigene Backend Module**      | --           | --          |    |     |
 | 0651 | -- Backend Module              |              | none        |    |     |
 | 0652 | -- Backend ViewHelper          |              | none        |    |     |
