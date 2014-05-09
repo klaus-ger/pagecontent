@@ -12,9 +12,13 @@ Seit TYPO3 6.1 reicht es aus, für jede Tabelle eine Datei mit dem entsprechende
 Es ist also nicht mehr erforderlich (wie bis 6.1 üblich), einen Teil der TCA Definition (das ctrl Array) in die ext_tables.php zu schreiben und dann auf eine dynamische Konfiguration im TCA Ordner zu verweisen.
 
 *Vorsicht: Damit wird nur das TCA automatisch geladen. Weiterhin ist die Variable $_EXTKEY nach meiner Erfahrung dort nicht erreichbar. Diese wird desöftern in der Zeile iconfile => ... verwendet.*
+
 *Die Zeilen*
+
 *...\ExtensionManagementUtility::addLLrefForTCAdescr(... und*
+
 *....\ExtensionManagementUtility::allowTableOnStandardPages(...*
+
 *müssen nach wie vor in der ext_tables.php eingefügt werden.*
 
 
