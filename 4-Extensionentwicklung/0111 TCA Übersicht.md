@@ -1,9 +1,11 @@
 #Extensionentwicklung#
 
-##Das TCA (Tabellen Konfiguratins Array)##
+##Das TCA (Tabellen-Konfigurations-Array)##
 
 
-Ohne einem $TCA Array für eine Tabelle geht in TYPO3 nichts, da es die zentrale Schnittstelle zwischen Datenbank und TYPO3 darstellt. Wir brauchen also für jede Tabelle unserer Extension ein $TCA Array um die Tabelle im Backend anzuzeigen und den TAbelleninhalt in Extbase Models verfügbar zu machen.
+Ohne ein $TCA Array für eine Tabelle geht in TYPO3 nichts da es die zentrale Schnittstelle zwischen Datenbank und TYPO3 darstellt. Wir brauchen also für jede Tabelle unserer Extension ein $TCA Array um die Tabelle im Backend anzuzeigen und den Tabelleninhalt in Extbase Models verfügbar zu machen.
+
+Zusätzlich werden Tabellenrelation im TCA definiert, welche Felder in welcher Form im Backend angezeigt und wie validiert werden.
 
 Seit TYPO3 6.1 reicht es aus, für jede Tabelle eine Datei mit dem entsprechendem TCA Array (Dateiname = Tabellenname) im Extension-Ordner Configruration/TCA zu speichern. Die Datei wird von dort automatisch geladen.
 
