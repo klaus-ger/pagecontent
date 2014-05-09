@@ -9,7 +9,7 @@ Zusätzlich werden Tabellenrelation im TCA definiert, welche Felder in welcher F
 
 Seit TYPO3 6.1 reicht es aus, für jede Tabelle eine Datei mit dem entsprechendem TCA Array (Dateiname = Tabellenname) im Extension-Ordner Configruration/TCA zu speichern. Die Datei wird von dort automatisch geladen.
 
-Es ist also nicht mehr erforderlich (wie bis 6.1 üblich), einen Teil der TCA Definition in die ext_tables.php zu schreiben und dann auf eine dynamische Konfiguration im TCA Ordner zu verweisen.
+Es ist also nicht mehr erforderlich (wie bis 6.1 üblich), einen Teil der TCA Definition (das ctrl Array) in die ext_tables.php zu schreiben und dann auf eine dynamische Konfiguration im TCA Ordner zu verweisen.
 
 
 ###Das $TCA Array im Überblick:###
