@@ -2,8 +2,19 @@
 ***
 
 
-#ToDos#
+##ToDos##
 - [ ] Writing responsice template content
 - [ ] Writing Ajax Page
 
 - [x] Structure of installation
+
+
+##Stat##
+
+| Section             | pages |
+| --------------------|------:|
+| Installation        |       |
+| Typoscript          |       |
+| Extensionentwicklung| 41    |
+| Libaries            |       |
+| Tutorials           |       |
