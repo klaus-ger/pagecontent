@@ -13,8 +13,9 @@
 
 | Section             | pages |
 | --------------------|------:|
-| Installation        |       |
-| Typoscript          |       |
+| Installation        | 10    |
+| Typoscript          | 6     |
+| Extensions          | 9     |
 | Extensionentwicklung| 41    |
-| Libaries            |       |
+| Libaries            | 6     |
 | Tutorials           |       |
