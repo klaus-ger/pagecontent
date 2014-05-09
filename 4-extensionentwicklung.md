@@ -11,7 +11,7 @@
 | 0101 | -- Basics                           | writing      | none        |    |     | 
 | 0102 | -- DB Relationen                    |              | none        |    |     |
 | 0110 | **Das TCA**                         | --           | --          |    |     | 
-| 0111 | -- Das TCA                          |              | none        |    |     | 
+| 0111 | -- Das TCA                          | check        | none        |    |     | 
 | 0112 | -- TCA crtl Section                 |              | none        |    |     |
 | 0113 | -- TCA interface Section            |              | none        |    |     | 
 | 0114 | -- TCA types und palettes Section   |              | none        |    |     | 
