@@ -9,13 +9,19 @@
 | :--- | :---------------------------------- | :----------: | :---------: |:-- |:--- |
 | 0101 | **Die erste Extension erstellen**   | --           | --          |    |     |
 | 0101 | -- Basics                           | writing      | none        |    |     | 
-| 0102 | -- DB Relationen                    |              | none        |    |     | 
-| 0110 | **EXT Setup und Conifuration**      |              | none        |    |     | 
-| 0111 | -- EXT Setup                        |              | none        |    |     |
-| 0112 | -- EXT Constants                    |              | none        |    |     |
-| 0113 | -- EXT Constants im Template Editor |              | none        |    |     |
-| 0115 | -- EXT config Template              |              | none        |    |     |
-| 0120 | -- Plugins Flexforms                |              | none        |    |     |
+| 0102 | -- DB Relationen                    |              | none        |    |     |
+| 0110 | **Das TCA**                         | --           | --          |    |     | 
+| 0111 | -- Das TCA                          |              | none        |    |     | 
+| 0112 | -- TCA crtl Section                 |              | none        |    |     |
+| 0113 | -- TCA interface Section            |              | none        |    |     | 
+| 0114 | -- TCA types und palettes Section   |              | none        |    |     | 
+| 0115 | -- TCA columns Section              |              | none        |    |     | 
+| 0120 | **EXT Setup und Conifuration**      |              | --          |    |     | 
+| 0121 | -- EXT Setup                        |              | none        |    |     |
+| 0122 | -- EXT Constants                    |              | none        |    |     |
+| 0123 | -- EXT Constants im Template Editor |              | none        |    |     |
+| 0125 | -- EXT config Template              |              | none        |    |     |
+| 0130 | -- Plugins Flexforms                |              | none        |    |     |
 | 0190 | **Extbase / Fluid Konzepte**        |              | none        |    |     |
 | 0191 | -- MVC                              |              | none        |    |     |
 | 0192 | -- DDD                              |              | none        |    |     |
