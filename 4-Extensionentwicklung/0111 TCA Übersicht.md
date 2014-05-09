@@ -15,21 +15,24 @@ Es ist also nicht mehr erforderlich (wie bis 6.1 üblich), einen Teil der TCA De
 ###Das $TCA Array im Überblick:###
 
 ````
-$TCA['tx_examples_haiku'] = array(
+$TCA['tx_myextension_domain_model_table'] = array(
     'ctrl' => array(
-        ....
+        ... genrelle Anzeigeoptionen im Backend (Icon, Titel etc ...)
+        ... generelles Verhalten der Tabelle 
+        ... Pflichtangabe für jede Tabelle
     ),
     'interface' => array(
-        ....
-    ),
-    'columns' => array(
-        ....
+        ... Angaben wir die Tabelle im Backend angezeigt werden soll
     ),
     'types' => array(
-        ....
+        ... Anordnung der Felder innerhalb der Backendformulare (Datensatz bearbeiten)
     ),
     'palettes' => array(
-        ....
+        ... Hier können mehrere Felder für eine horizontale Anordnung im Formular zusammengafasst werden
+    ),
+    'columns' => array(
+        ... Für jedes Datanbankfeld werden hier die Eigenschaften festgelegt:
+        ... Feldtyp, Relationen, Validierung
     ),
 );
 ````
