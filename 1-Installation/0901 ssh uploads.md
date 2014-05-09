@@ -1,5 +1,13 @@
-klaus-heuers-macbook:downloads klausheuer$ 
-TERMINAL
+#TYPO3 Installation#
+
+
+Wer nur selten eine TYPO3 Seite neu aufsetzt und Linux nur am Rende kennt, sucht immer wieder die passenden Terminalbefehle für eine schnelle Installation of dem Apache Server. Eine Kurzanleitung:
+
+##TYPO3 per Terminal und SHH vom Mac auf dem server installieren##
+
+Voraussetzungen:
+* Ihr habt euren ssh Key auf dem Server hinterlegt und kennt den Usernamen
+* 
 
 ins download Verzeichnis navigieren 
     
