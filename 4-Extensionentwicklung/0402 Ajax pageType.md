@@ -8,21 +8,21 @@ Beide haben ein ähnliches Funktionsprinzip, unterscheiden sich aber deutlich in
 
 Die Verwendung eines eigenen page Types für Ajax Calls ist relativ simpel. Zunächst müsst ihr euer Extensionsetup um einen neuen PageType erweitern. Die PageType Nummer muss einmalig in der Installation sein, also ggf. bereits vergebene PageTypes für RSS, Sitemaps, Print & Co beachten. 
 
-Extensionsetup
+**Extensionsetup**
+Bitte beachtet das ihr in der letzten Zeile eure den Extensionnamen ohne tx_ prefix angeben müsst!
 
 ````
 ajaxCall = PAGE
 ajaxCall {
     typeNum = 999
     config.disableAllHeaderCode = 1
-    config.metaCharset = UTF-8
-    10 = COA
+    additionalHeaders = Content-Type:text/html;charset=utf-8
     10 < tt_content.list.20.myextension_myplugin
     }
 ````
     
 
-Der AjaxCall in jQuery sieht dann ungefähr so aus: 
+**Der AjaxCall in jQuery sieht dann ungefähr so aus:**
 
 ````
 $('#jq-send').click(function(e) {
@@ -30,11 +30,15 @@ $('#jq-send').click(function(e) {
         var controller = tx_myExt_myplugin[controller]= blabla;
         var action = tx_myExt_myplugin[action]= meineControllerFunction; // ohne Action am Ende
         var pagetype = 999;
-        url: '/?' + controller + '&' + action + '&type=' + pagetype
+        var path = $(location).attr('href');
+        
+        url: path + '/?' + controller + '&' + action + '&type=' + pagetype
         //optionale Parameter
         data: 'useruid=' + useruid,
+        
         success: function(result) {
             console.log(result);
+            // hier kommen eure Anweisungen rein
         },
         error: function(error) {
          console.log(error);
