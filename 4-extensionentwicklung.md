@@ -43,13 +43,13 @@ Eigene Extensions erweitern und anpassen.
 | 0302 | -- erw. Frontend Funktionen    |              | none        |    |     |
 | 0303 | -- Datenmigration              |              | none        |    |     |
 | 0400 | **Ajax in Extensions**         | --           | --          |    |     |
-| 0401 | -- Übersicht                   | check        | none        |    | 3   |
-| 0402 | -- pageType                    | check        | none        |    |     |
-| 0403 | -- EID Mechanismus             | check        | none        |    | 10  |
-| 0500 | **Fluid Templating**           | --           | --          |    |     |
-| 0501 | -- Layouts, Templates, Partials|              | none        |    |     |
-| 0502 | -- ViewHelper erstellen        |              | none        |    |     |
-| 0503 | -- VHS, Fed, Flux              |              | none        |    |     |
+| 0401 | -- Übersicht                   | ok           | none        | ok | 3   |
+| 0402 | -- pageType                    | ok           | none        | ok | ok  |
+| 0403 | -- EID Mechanismus             | ok           | none        | ok | 10  |
+| 0500 | **Fluid Templating**           | --           | --          | ok |     |
+| 0501 | -- Layouts, Templates, Partials|              | none        | ok |     |
+| 0502 | -- ViewHelper erstellen        |              | none        | ok |     |
+| 0503 | -- VHS, Fed, Flux              |              | none        | ok |     |
 
 **Backend Forms & Module**
 
