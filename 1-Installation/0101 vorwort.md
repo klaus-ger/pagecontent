@@ -16,3 +16,7 @@ Aber damit ist es eben auch ein System was nicht *mal eben* out-of-the-box funkt
 
 
 Ich möchte hier keinen Entmutigen - ganz im Gegegnteil. Wer sich die Mühe macht und *investiert* in das TYPO3 System, wird irgendwann von seinen unbegrenzten Möglichkeiten begeistert sein. Und das schreibe ich bewustt, trotz vieler haareraufender Nächte in den letzten 6 Jahren als TYPO3 Entwickler.
+
+Diese Seiten sollen den Einstieg und die Erweiterung von TYPO3 Systemen erleichtern. Und ich behaupte immer noch, mit dem aktuellem TYPO3 System und dem kostenlosem Templates responsive_Template sollte jeder **seine** TYPO3 Seite innerhalb von 30 Minuten online haben -  mit der Option auf die Erweiterungen eines großartigen Contentmanagement System.
+
+Klaus
