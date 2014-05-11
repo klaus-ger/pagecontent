@@ -1,4 +1,4 @@
-#TYPO3 Installtion#
+#TYPO3 Installation#
 
 ##Vorwort##
 
