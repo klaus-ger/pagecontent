@@ -3,9 +3,10 @@
 
 
 ##ToDos##
+- [ ] Writing install TYPO3
 - [ ] Writing responsice template content
-- [ ] Writing Ajax Page
-
+- 
+- [x] Writing Ajax Page
 - [x] Structure of installation
 
 
