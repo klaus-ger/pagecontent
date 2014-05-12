@@ -35,7 +35,6 @@ Unser Auswahlfeld das die Anzeige bestimmt am Beispeil eines Select-Feldes:
                     array('Standard', 0),
                     array('Variante A', 1),
                     array('Variante B', 2),
-                    
                 )
             ),
         ),
