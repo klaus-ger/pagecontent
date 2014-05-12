@@ -15,6 +15,16 @@ Wird z.B. ein Datensatz mit $this->myRepository->add($newData) hinzugefügt, so 
 
     $this->objectManager->get('TYPO3\\CMS\\Extbase\\Persistence\\Generic\\PersistenceManager')->persistAll();
     
+**Mailfunktion im Controller**
+    
+        $email = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\\CMS\\Core\\Mail\\MailMessage');
+        $email->setFrom($message['sender']);
+        $email->setTo($message['receiver']);
+        $email->setSubject($message['subject']);
+        $email->setBody($message['content'], 'text/html');
+        $email->send();
+        
+        
 **Whitespace entfernen**
 
     $mail = preg_replace('/\s+/', '', $mail);
