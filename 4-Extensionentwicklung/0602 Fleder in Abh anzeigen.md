@@ -19,7 +19,7 @@ $TCA['tx_myextension_domain_model_table'] = array(
 )
 ````   
   
-Bei jeder Änderung des Feldes 'form_typ' wird nun unser tcA Formular neu geladen.
+Bei jeder Änderung des Feldes 'form_typ' wird nun unser TCA Formular neu geladen.
 
 ##Felder ein- und ausblenden##
 
