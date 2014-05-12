@@ -7,10 +7,13 @@
 
 | ID   | Titel                         | Status       | Translation | SO   | Add |
 | :--- | :---------------------------- | :----------- | :---------- | :--: |:--: |
-| 0100 | **Index**                     | --           | --          | --   |     |
+| 0100 | **Installation**              | --           | --          | --   |     |
 | 0101 | Vorwort                       | write        | none        |      |     |
 | 0102 | TYPO3 installieren            | write        | none        |      |     |
-| 0199 | TYPO3 per ssh installieren    |              | none        |      |     |
+| 0149 | TYPO3 per ssh installieren    |              | none        |      |     |
+| 0150 | **Wartung und Updates**       | --           | --          | --   |     |
+| 0151 | Core Updates                  |              |             |      |     |
+| 0152 | Wartung                       |              | none        |      |     | 
 
 
 **Einrichtung**
@@ -25,12 +28,15 @@
 | 0206 |Eigene CE Elemente             |              |             |      |     |
 
 
-**Wartung und Updates**
+**TYPO3 und SEO**
 
 | ID   | Titel                         | Status       | Translation | SO   | Add | 
 | :--- | :---------------------------- | :----------- | :---------- | :--: | :--:|
-| 0301 | Core Updates                  |              |             |      |     |
-| 0302 | Wartung                       |              | none        |      |     |        
+| 0301 | Übersicht                     |              |             |      |     |
+| 0302 | Metatags                      |              | none        |      |     |
+| 0303 | Duplicate Content             |              | none        |      |     |
+| 0304 | Page Speed                    |              | none        |      |     |  
+
 
 **TER Extensions**
 
