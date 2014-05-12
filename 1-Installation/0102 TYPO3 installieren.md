@@ -2,7 +2,8 @@
 
 ##TYPO3 Installieren##
 
-**Voraussetzunen**
+**Voraussetzugen**
+
 Server
 
 Lokale Software
