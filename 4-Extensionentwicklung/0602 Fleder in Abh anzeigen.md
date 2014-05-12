@@ -23,7 +23,7 @@ Bei jeder Änderung des Feldes 'form_typ' wird nun unser TCA Formular neu gelade
 
 ##Felder ein- und ausblenden##
 
-Unser Feld as nun die Anzeige bestimmt am Beispeil eines Select Feldes:
+Unser Auswahlfeld das die Anzeige bestimmt am Beispeil eines Select-Feldes:
 
 ````
         'form_typ' => array(
@@ -41,7 +41,7 @@ Unser Feld as nun die Anzeige bestimmt am Beispeil eines Select Feldes:
         ),
 ````
 
-Die Felder die nun in Abhängigkeit des Wertes im Feld 'form_typ' angezeigt werden sollen, erhalten jetzt in der Column Section den zusätzlichen Eintrag 'displayCond'.
+Die Felder die nun in Abhängigkeit des Wertes im Feld 'form_typ' angezeigt werden sollen, erhalten in der Column Section den zusätzlichen Eintrag 'displayCond'.
 
 ````
     'my_field' => array(
