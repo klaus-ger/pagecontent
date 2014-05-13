@@ -44,7 +44,28 @@ $TCA['tx_myextension_domain_model_table'] = array(
         'dividers2tabs' => TRUE,
         ....
         ),
-        ....
+    ....
 )
 ````
 
+Im types-Subarray können wir nun unsere Tabs - gekennzeichnet durch 'div; my_Label' einfügen:
+
+````
+$TCA['tx_myextension_domain_model_table'] = array(
+    'ctrl' => array(
+        ....
+        'dividers2tabs' => TRUE,
+        ....
+        ),
+    ....
+    'types' => array(
+        '1' => array('showitem' => ' div; my_first_tab_label
+                                   , feld_1
+                                   , fled_2
+                                   , div; my_second_tab_label
+                                   , field_3
+                                   ....
+                )
+       )
+)
+````
