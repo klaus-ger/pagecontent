@@ -2,7 +2,7 @@
 
 ##TYPO3 Installieren##
 
-###Voraussetzungen### für eine typische Installation
+###Voraussetzungen für eine typische Installation###
 
 **Server**
 * Apache Server mod_expires and mod_rewrite enabled
