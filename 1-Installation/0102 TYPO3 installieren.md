@@ -38,11 +38,12 @@ Siehe auch Artikle 'TYPO3 per SHH auf dem Server installieren'.
  
 
 Ihr habt nachher folgende Verzeichnisstruktur auf dem Server:
-  typo3_src-6.2.x/
-  htdocs/typo3_src -> ../typo3_src-6.2.x/
-  htdocs/typo3 -> typo3_src/typo3/
-  htdocs/index.php -> typo3_src/index.php
-  htdocs/.htaccess
+  
+    typo3_src-6.2.x/
+    htdocs/typo3_src -> ../typo3_src-6.2.x/
+    htdocs/typo3 -> typo3_src/typo3/
+    htdocs/index.php -> typo3_src/index.php
+    htdocs/.htaccess
 
 
 ###TYPO3 installieren###
