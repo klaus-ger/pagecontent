@@ -2,9 +2,9 @@
 
 ##TYPO3 Installieren##
 
-**Voraussetzungen** für eine typische Installation
+###Voraussetzungen### für eine typische Installation
 
-Server
+**Server**
 * Apache Server mod_expires and mod_rewrite enabled
 * GraphicsMagick or ImageMagick v6
 * standard PHP package
@@ -17,13 +17,15 @@ Server
 
 Die Voraussetzungen werden eigentlich inzwischen von allen mittleren Paketen der großen Webhoster erfüllt.
 
-Lokale Software
+**Lokale Software**
 * Aktueller Webbrowser
 * PC: Putty, Mac: Terminal
 * FTP Programm
 * Editor oder IDE (Z.B. Netbeans) empfohlen
 
 
-I. Hochladen und entpacken
+###TYPO3 auf den Webserver kopieren###
 
-II. Installation
+
+
+###TYPO3 installieren###
