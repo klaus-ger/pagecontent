@@ -51,3 +51,4 @@ $TCA['tx_myextension_domain_model_table'] = array(
 );
 ````
 
+Mit dem Zustaz '
