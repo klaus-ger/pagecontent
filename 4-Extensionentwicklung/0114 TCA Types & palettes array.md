@@ -21,9 +21,7 @@ $TCA['tx_myextension_domain_model_table'] = array(
         '1' => array('showitem' => ' feld_1, feld_2, feld_3....)
     ),
     'palettes' => array(
-        '1' => array(
-        ....
-        ),
+        '1' => array( .... ),
     ),
     'columns' => array(
         ....
@@ -32,3 +30,21 @@ $TCA['tx_myextension_domain_model_table'] = array(
 ````
 
 Die Reihenfolge im Array bestimmt die Reihenfolge in der Ausgabe wobei jedes Feld in einer neuen Zeile erscheint.
+
+##Tabs in TCA Formularen anzeigen##
+
+Um Tabs - analog aus den in tt_content TCA Forms belannten Reitern 'Text', 'Bilder' etc zu erzeugen, muss das ctrl- und types Subarray ergänzt werden:
+
+**ctrl-Array**
+
+````
+$TCA['tx_myextension_domain_model_table'] = array(
+    'ctrl' => array(
+        ....
+        'dividers2tabs' => TRUE,
+        ....
+        ),
+        ....
+)
+````
+
