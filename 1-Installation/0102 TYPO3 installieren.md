@@ -25,7 +25,7 @@ Die Voraussetzungen werden eigentlich inzwischen von allen mittleren Paketen der
 
 * Download des aktuellen TYPO3 Paketes
 
-###TYPO3 auf den Webserver installieren###
+###TYPO3 auf den Webserver kopieren und entpacken###
 Siehe auch Artikle 'TYPO3 per SHH auf dem Server installieren'.
 
 * Das komprimierte TYPO3 Paket per SHH auf den Server eine Ebene über euer Rootverzeichnis kopieren.
@@ -45,5 +45,8 @@ Ihr habt nachher folgende Verzeichnisstruktur auf dem Server:
     htdocs/index.php -> typo3_src/index.php
     htdocs/.htaccess
 
+Mit diesem Verzeichnisbaum funktioniert der Core updater im Install Tool. Gleichzeitig könnt ihr sicher sein, das alle Dateien die richtigen Rechte besitzen.
 
 ###TYPO3 installieren###
+Im nächsten Schritt ruft Ihr eure Domain im Webbrowser auf. Ihr werdet aufgefordert eine first_install Datei anzulegen und benötigt die Zugangsdaten zu eurer MySQl Datenbank.
+
