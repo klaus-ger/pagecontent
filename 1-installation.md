@@ -20,10 +20,12 @@
 
 | ID   | Titel                         | Status       | Translation | SO   | Add |
 | :--- | :---------------------------- | :----------- | :---------- | :--: |:--: |
+| 0200 | **Setup & Configuration**     |              |             |      |     |
 | 0201 | Einleitung                    |              |             |      |     |
 | 0202 | Setup & Page Configuration    |              | none        |      |     |
 | 0203 | Backendlayouts                |              |             |      |     |
 | 0204 | RTE konfiguration             |              |             |      |     |
+| 0250 | **Systemerweiterungen**       |              |             |      |     |
 | 0205 | Mehrsprachigkeit              |              |             |      |     |
 | 0206 |Eigene CE Elemente             |              |             |      |     |
 
