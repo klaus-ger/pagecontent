@@ -70,7 +70,39 @@ $TCA['tx_myextension_domain_model_table'] = array(
 )
 ````
 
-Damit haben wir schon etws Ordnung in unsere Formulare bringen können. Um mehrere Felder in einer Zeile anzuzeigen, brauchen wir das Palettes Sub-Array
+Damit haben wir schon etwas Ordnung in unser Formular bringen können. Um mehrere Felder in einer Zeile anzuzeigen brauchen wir das Palettes Sub-Array:
 
 ##In TCA Formularen mehrere Feler in einer Zeile anzeigen##
+
+Das Prinzipt ist einfach: jede Formularzeile die aus mehreren Feldern besteht wird in einer Palette gespeichert. Im types Array wird dann nur noch die entsprechende Palette eingefügt. Die Feld Labels kommen ganz normal aus der Columns Feldbeschreibungen, die komplette Zeile (Palette) hat zusätzlich ein eigens Label.
+
+Unser TCA Array sieht dann so aus:
+
+````
+$TCA['tx_myextension_domain_model_table'] = array(
+    'ctrl' => array(
+        ....
+        'dividers2tabs' => TRUE,
+        ....
+        ),
+    ....
+    'types' => array(
+        '1' => array('showitem' => ' div; my_first_tab_label
+                                   , feld_1
+                                   ,--palette--;my_palette_label;pallete_name_one
+                                   , div; my_second_tab_label
+                                   ,--palette--;my_palette_label;pallete_name_two
+                                   ....
+                )
+       )
+    'palettes' => array(
+        'pallete_name_one' => array('showitem' => 'feld_2, feld_3', 'canNotCollapse' => 1),
+        'pallete_name_two'  => array('showitem' => 'feld_4, feld_5', 'canNotCollapse' => 1),
+    ),
+)
+````
+
+
+
+
 
