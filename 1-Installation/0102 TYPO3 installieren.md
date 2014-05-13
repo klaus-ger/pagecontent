@@ -34,7 +34,7 @@ Siehe auch Artikle 'TYPO3 per SHH auf dem Server installieren'.
 * Im Rootverzeichnis einen Systemlink auf den entpackten Ordner setzten
 * Im Rootverzeichnis einen Systemlink auf den Ordner typo3 setzen
 * Im Rootverzeichnis einen Systemlink auf die index.php setzen
-* Die _htaccess Datei aus dem entpacktem TYPO3 VErzeichnis in euer Rootverzeichnis kopieren und auf .htaccess umbenennen.
+* Die _htaccess Datei aus dem entpacktem TYPO3 Verzeichnis in euer Rootverzeichnis kopieren und auf .htaccess umbenennen.
  
 
 Ihr habt nachher folgende Verzeichnisstruktur auf dem Server:
@@ -50,7 +50,7 @@ Mit diesem Verzeichnisbaum funktioniert der Core updater im Install Tool. Gleich
 ###TYPO3 installieren###
 Im nächsten Schritt ruft Ihr eure Domain im Webbrowser auf. Ihr werdet aufgefordert eine first_install Datei anzulegen und benötigt die Zugangsdaten zu eurer MySQL Datenbank.
 
-Das Installtool will erzeugt automatisch die erforderlichen Ordner (typo3conf, uploads, fileadmin, typo3temp) die früher im Dummy Package enthalten waren.
+Das Installtool erzeugt automatisch die erforderlichen Ordner (typo3conf, uploads, fileadmin, typo3temp) die früher im Dummy Package enthalten waren.
 
-Nach Abschluss der Installion öffnet sich das Installtool und Ihr seht einen Überblick über eure Installtion mit möglichen erkannten Fehlern.
+Nach Abschluss der Installion öffnet sich das Installtool und ihr seht einen Überblick über eure Installtion mit möglichen erkannten Fehlern.
 
