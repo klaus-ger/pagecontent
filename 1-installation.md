@@ -9,7 +9,7 @@
 | :--- | :---------------------------- | :----------- | :---------- | :--: |:--: |
 | 0100 | **Installation**              | --           | --          | --   |     |
 | 0101 | Vorwort                       | write        | none        |      |     |
-| 0102 | TYPO3 installieren            | write        | none        |      |     |
+| 0102 | TYPO3 installieren            | ok           | none        |      | ok  |
 | 0149 | TYPO3 per ssh installieren    |              | none        |      |     |
 | 0150 | **Wartung und Updates**       | --           | --          | --   |     |
 | 0151 | Core Updates                  |              |             |      |     |
