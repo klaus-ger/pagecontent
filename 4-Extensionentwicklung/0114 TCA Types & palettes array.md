@@ -20,6 +20,11 @@ $TCA['tx_myextension_domain_model_table'] = array(
     'types' => array(
         '1' => array('showitem' => ' feld_1, feld_2, feld_3....)
     ),
+    'palettes' => array(
+        '1' => array(
+        ....
+        ),
+    ),
     'columns' => array(
         ....
     )
