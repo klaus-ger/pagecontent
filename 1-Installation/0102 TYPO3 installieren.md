@@ -48,5 +48,9 @@ Ihr habt nachher folgende Verzeichnisstruktur auf dem Server:
 Mit diesem Verzeichnisbaum funktioniert der Core updater im Install Tool. Gleichzeitig könnt ihr sicher sein, das alle Dateien die richtigen Rechte besitzen.
 
 ###TYPO3 installieren###
-Im nächsten Schritt ruft Ihr eure Domain im Webbrowser auf. Ihr werdet aufgefordert eine first_install Datei anzulegen und benötigt die Zugangsdaten zu eurer MySQl Datenbank.
+Im nächsten Schritt ruft Ihr eure Domain im Webbrowser auf. Ihr werdet aufgefordert eine first_install Datei anzulegen und benötigt die Zugangsdaten zu eurer MySQL Datenbank.
+
+Das Installtool will erzeugt automatisch die erforderlichen Ordner (typo3conf, uploads, fileadmin, typo3temp) die früher im Dummy Package enthalten waren.
+
+Nach Abschluss der Installion öffnet sich das Installtool und Ihr seht einen Überblick über eure Installtion mit möglichen erkannten Fehlern.
 
