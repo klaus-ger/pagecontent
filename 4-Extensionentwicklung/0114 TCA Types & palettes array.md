@@ -97,12 +97,14 @@ $TCA['tx_myextension_domain_model_table'] = array(
        )
     'palettes' => array(
         'pallete_name_one' => array('showitem' => 'feld_2, feld_3', 'canNotCollapse' => 1),
-        'pallete_name_two'  => array('showitem' => 'feld_4, feld_5', 'canNotCollapse' => 1),
+        'pallete_name_two' => array('showitem' => 'feld_4, feld_5', 'canNotCollapse' => 1),
     ),
 )
 ````
 
+Mit dem Zusatzt 'canNotCollapse' => 1 wird eure Zeile sofort in der TCA Formular Ansicht sichtbar, ansonsten müsst Ihr das Feld unterhalb des Formulars 'Zweite Optionspalette anzeigen' anklicken.
 
+Ihr könnt natürlich die Labels für die Tabs und Palletes auch über eine Sprachdatei einfügen. Dazu einfach anstelle des my_first_tab_label  den VErweis auf die Sprachdatei setzten: LLL:EXT:my_extension/Resources/Private/Language/locallang_table.xlf:form_tab_mytab.
 
 
 
