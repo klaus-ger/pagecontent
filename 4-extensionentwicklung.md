@@ -14,7 +14,7 @@
 | 0111 | -- Das TCA                          | ok           | none        |    | ok  | 
 | 0112 | -- TCA crtl Section                 |              | none        |    |     |
 | 0113 | -- TCA interface Section            |              | none        |    |     | 
-| 0114 | -- TCA types und palettes Section   |              | none        |    |     | 
+| 0114 | -- TCA types und palettes Section   | ok           | none        |    |     | 
 | 0115 | -- TCA columns Section              |              | none        |    |     | 
 | 0120 | **EXT Setup und Conifuration**      |              | --          |    |     | 
 | 0121 | -- EXT Setup                        |              | none        |    |     |
