@@ -17,10 +17,20 @@ Werbung
 
 Course I - Extension Basics
 
-| Woche | Thema | Vorbereitung |
-| ------|-------|--------------|
-| I.    | Extnesion Erzeugen, Dateien | offen |
-
+| Woche | Thema                       | Video | Text  | 
+| ------|-----------------------------|-------|-------|
+| I.    | Extension Erzeugen, Dateien | offen | offen | 
+|       | Models im View verstehen    |       |       |
+| II.   |                             |       |       |
+|       |                             |       |       |
+| III.  |                             |       |       |
+|       |                             |       |       |
+| IV.   |                             |       |       |
+|       |                             |       |       |
+| V.    |                             |       |       |
+|       |                             |       |       |
+| VI.   |                             |       |       |
+|       |                             |       |       |
 
 * I.
 * II.
