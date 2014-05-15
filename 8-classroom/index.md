@@ -16,6 +16,7 @@ Werbung
 
 
 Course I - Extension Basics
+
 | Woche | Thema | Vorbereitung |
 | ------|-------|--------------|
 | I.    | Extnesion Erzeugen, Dateien | offen |
