@@ -6,14 +6,14 @@
 - Anleitungen
 - Forum für Room
 - Ergenisse der User ??
-- 
+ 
 
 Werbung
 - unten rechts auf jeder Page
 - Anmeldung
 - letztes Training markieren sold out
 - max 15 Teilnehmer
-- 
+
 
 Course I - Extension Basics
 * I.
