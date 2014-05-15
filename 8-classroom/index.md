@@ -14,18 +14,23 @@ Werbung
 - letztes Training markieren sold out
 - max 15 Teilnehmer
 
+Voaraussetzungen
+* php Basis kenntnisse
+* TXPO3 System 6.2
+* 
 
-Course I - Extension Basics
+
+Course I - Extension Basics - am Beispiel einer Produkt DB
 
 | Woche | Thema                       | Video | Text  | 
 | ------|-----------------------------|-------|-------|
-| I.    | Extension Erzeugen, Dateien | offen | offen | 
-|       | Models im View verstehen    |       |       |
-| II.   |                             |       |       |
+| I.    | Basics, Models in Fluid     | offen | offen | 
 |       |                             |       |       |
-| III.  |                             |       |       |
+| II.   | Controller Functions        |       |       |
 |       |                             |       |       |
-| IV.   |                             |       |       |
+| III.  | plugins / Flex Forms        |       |       |
+|       |                             |       |       |
+| IV.   | Backend / Module / TCA      |       |       |
 |       |                             |       |       |
 | V.    |                             |       |       |
 |       |                             |       |       |
