@@ -35,9 +35,9 @@
 | ID   | Titel                         | Status       | Translation | SO   | Add | 
 | :--- | :---------------------------- | :----------- | :---------- | :--: | :--:|
 | 0300 | **Content und Meta Tags**     |  --          | --          | --   | --  |
-| 0301 | Übersicht                     |              |             |      |     |
-| 0302 | Metatags                      |              | none        |      |     |
-| 0303 | Duplicate Content             |              | none        |      |     |
+| 0301 | Übersicht                     | check        |             |      | ok  |
+| 0302 | Metatags                      | check        | none        |      | ok  |
+| 0303 | Duplicate Content             | check        | none        |      | ok  |
 | 0200 | **Performance**               | --           | --          | --   |  -- |
 | 0304 | Page Speed                    |              | none        |      |     |  
 
