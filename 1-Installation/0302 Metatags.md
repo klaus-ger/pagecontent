@@ -102,3 +102,52 @@ Typoscript: page.meta.viewport  = width=device-width, initial-scale=1.0
 
 Anweisung für die Suchmaschinen Bots.
 Typoscript: page.meta.robots = index,follow
+
+###Link Stylesheet###
+
+Wenn Ihr eure CSS Styleshhets über page.includeCSS einbindet erscheinen die an dieser Stelle. Es sollte immer mal überprüft werden, ob sich Stylesheets nicht sinvoll zusammenfassen lassen. 10 verschiedene CSS Dateiein hier einbinden macht wenig Sinn - siehe auch Abschnitt gzip Komprimierung.
+
+###Link Script###
+
+siehe Stylesheet, Einbindung über page.includeJS, aus Perfomancegründen möglichst viele js Dateien in den Footer verlegen.
+
+###canonical###
+
+Der canonical Link weist auf die eindeutige Contentseite zur Verhinderung von Double Content. Das Typoscript Snippet muss je nach eingesetzter Extension erweitert werden. Typoscript:
+
+````
+page.headerData {
+700 = TEXT
+700 {
+    stdWrap.typolink.parameter.data = TSFE:id
+    stdWrap.typolink.forceAbsoluteUrl = 1
+    stdWrap.typolink.returnLast = url
+    htmlSpecialChars = 1
+    wrap = <link href="|" rel="canonical" />
+  }
+}
+`´´´
+
+###shortcut Icon###
+
+Das Shortcut-Icon kann auch über page.shortcutIcon = myicon.ico eingebunden werden. Dann werden die Links jedoch im Header vor dem Title Tag ausgegeben. Um die shotcut Links am Ende einzufügen hilft folgendes Snippet:
+
+````
+page.headerData {
+701 = TEXT
+701.value (
+
+<link rel="shortcut icon" href="http://mypage.de/icon.ico" type="image/x-icon; charset=binary" />
+)
+
+702 = TEXT
+702.value (
+
+<link rel="icon" href="http://mypage.de/icon.ico" type="image/x-icon; charset=binary" />
+)
+
+    }
+````
+    
+
+Die Klammer-Schreibweise sorgt für den Zeilenumbruch im Header.
