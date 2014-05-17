@@ -54,3 +54,51 @@ Die Typoscriptzeile config.doctype = html5 ist nicht mehr erforderlich.
 
 Typoscript: config.htmlTag_langKey = de
 Bei mehrsprachigen Seiten muss der Key über Conditions angepasst werden.
+
+###Metatag charset###
+
+Typoscript: config.metaCharset = utf-8
+
+###Base-Tag###
+
+Typoscript: config.baseURL = myPage.de
+
+###Title-Tag###
+
+Der wichtigse Tag im Header. Der Feldinhalt wird aus dem Seitentitel gerendert und solte aus ca. 60 Zeichen bestehen.
+Meist wird ja dieses Feld nur für den Naviagationspunkt benutzt - dieser sollte dann im Feld "Alternative Naviagtion Title" gepflegt werden.
+Von einem Standardwert für alle Seiten kann ich nur abraten, da Google unter Umständen Seiten mit gleichem Header einfach ignoriert.
+
+###Meta Generator###
+
+Das Metag "Generator" kann über Typoscript nicht ausgeblendet oder verschoben werden. Eigentlich nicht schön an dieser Stelle ...
+
+###Meta Description###
+
+Das Feld kann über die Seiteneigengeschaften Meta Daten befüllt werden. Maximal 130 Zeichen, wird meist von den Suchmaschinen als Textfeld berücksichtigt.
+Typoscript: page.meta.description.data = page:description
+
+###Meta Keywords###
+
+Die Keywords werden von Google nicht mehr berücksichtigt, sie schaden aber auch nicht - Einträge auf den Seiteneigenschaften: Keywords.
+Typoscript: page.meta.keywords.data = page:keywords
+
+###Meta Author###
+
+Optional, kann fix über page.meta.author = Mein Name gesetzt werden.
+
+###Meta Date###
+
+Rendert das Datum der letzten Änderungen bzw. Seitenerstellung.
+Typoscript: page.meta.date.data = page:SYS_LASTCHANGED // page:crdate;
+Typoscript: page.meta.date.date = Y-m-d
+
+###Meta viewport###
+
+Legt den Zoomfaktor auf Mobilengeräten fest.
+Typoscript: page.meta.viewport  = width=device-width, initial-scale=1.0
+
+###Meta robots###
+
+Anweisung für die Suchmaschinen Bots.
+Typoscript: page.meta.robots = index,follow
