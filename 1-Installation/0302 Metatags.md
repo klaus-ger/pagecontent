@@ -44,3 +44,13 @@ This website is powered by TYPO3 - inspiring people to share!
 Dies ist wirklich eine anonymisierte Header Kopie einer Live Seite, ohne irgedwelche Plugins oder Core Hacks um die Reihenfolge zu manipulieren.
 
 Die Setupeinstellungen im Einzelnen:
+
+###doctype###
+
+Seit der TYPO3 Version 6.0 wird der doctype automatisch auf html5 gesetzt.
+Die Typoscriptzeile config.doctype = html5 ist nicht mehr erforderlich.
+
+###html-Tag###
+
+Typoscript: config.htmlTag_langKey = de
+Bei mehrsprachigen Seiten muss der Key über Conditions angepasst werden.
