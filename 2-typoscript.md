@@ -5,7 +5,7 @@
 
 4 Hauptmenüblöcke für Typoscript
 
-| Einleitung | Page & Libs  | Conditions? | Referenz?  |
+| Typosc | Typoscript Templating  | Page und User TS | Referenz?  |
 | :-- | :-- | :-- | :-- |
 |  | auch Menus | nur Cond wahrscheinlich zu wenig | | 
 
@@ -18,7 +18,9 @@
 * Conditions
 * config bereich
 
+http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/TheDetails/Usages/Index.html
 
+**Typoscript Basiscs**
 
 | ID   | Titel                         | Status       | Translation | SO   |
 | :--- | :---------------------------- | :----------- | :---------- | :--: |
@@ -30,3 +32,24 @@
 | 0202 | -- Info Menü                  |  check       |             |      |
 | 0203 | -- DropDown Menü              |              |             |      |
 | 0204 | -- Breadcrump                 |              |             |      |
+
+
+**Typoscript Templating**
+
+| ID   | Titel                         | Status       | Translation | SO   |
+| :--- | :---------------------------- | :----------- | :---------- | :--: |
+| 0100 | **Typoscript allg**           | --           | --          | --   |
+
+
+**Page und User TS**
+
+| ID   | Titel                         | Status       | Translation | SO   |
+| :--- | :---------------------------- | :----------- | :---------- | :--: |
+| 0100 | **Typoscript allg**           | --           | --          | --   |
+
+
+**Referenz**
+
+| ID   | Titel                         | Status       | Translation | SO   |
+| :--- | :---------------------------- | :----------- | :---------- | :--: |
+| 0100 | **Typoscript allg**           | --           | --          | --   |
