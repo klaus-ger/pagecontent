@@ -3,6 +3,13 @@
 
 ###2. Typoscript###
 
+4 Hauptmenüblöcke für Typoscript
+
+| Einleitung | Page & Libs  | Conditions? | Referenz?  |
+|--|--|--|--|
+|  | auch Menus | nur Cond wahrscheinlich zu wenig | | 
+
+
 | ID   | Titel                         | Status       | Translation | SO   |
 | :--- | :---------------------------- | :----------- | :---------- | :--: |
 | 0100 | **Typoscript allg**           | --           | --          | --   |
