@@ -6,7 +6,7 @@
 4 Hauptmenüblöcke für Typoscript
 
 | Einleitung | Page & Libs  | Conditions? | Referenz?  |
-|--|--|--|--|
+| :-- | :-- | :-- | :-- |
 |  | auch Menus | nur Cond wahrscheinlich zu wenig | | 
 
 
