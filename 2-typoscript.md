@@ -23,6 +23,7 @@ http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/TheDetails/Usages/Index
 | :--- | :---------------------------- | :----------- | :---------- | :--: |
 | 0100 | **page Object und Fluid**     | --           | --          | --   |
 | 0100 | -- Fluid Templating           | --           | --          | --   |
+| 0100 | -- Einfaches TS Template für Browser App | --           | --          | --   |
 | 0100 | **Navigation mit Typoscript** | --           | --          | --   |
 | 0201 | -- Übersicht                  |              |             |      |
 | 0202 | -- Info Menü                  |  check       |             |      |
