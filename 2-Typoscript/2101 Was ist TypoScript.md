@@ -7,7 +7,7 @@ Auch wenn der Name darauf hindeutet, TypoScript ist **keine** Programmier- oder 
 Typoscript kann man vereinfacht mit XML vergleichen - es können Konstanten definiert und Werte zugewiesen werden.
 Letztendlich ist es ein großes Array das TYPO3 intern in php geparst wird. 
 
-TypoScript begegnet uns vor allem in 3 Bereichen:
+**TypoScript begegnet uns vor allem in 3 Bereichen:**
 
 * Dem Seitentemplate
 * Auf Seiten-Ebene - das TS config Feld 
