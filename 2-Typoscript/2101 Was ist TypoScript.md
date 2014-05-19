@@ -15,7 +15,9 @@ Letztendlich ist es ein großes Array das TYPO3 intern in php geparst wird.
 
 **Die Syntax:**
 
-Die TypoScript Syntax ist proprietär und für den Einsteiger zunächst verwirrend, nach kurzer Einarbeitung wird man sich aber schnell daran gewöhnt haben. Grundsätzlich sollte man beim Schreiben von TypoScript die gleichen Regeln beachten wie sonst auch: den Code sinnvoll gruppieren, Zeileneinzüge, und Aufsplittung in verschiedene Dateien um die Übersichtlichkeit zu gewährleisten.
+Die TypoScript Syntax ist proprietär und für den Einsteiger zunächst verwirrend, nach kurzer Einarbeitung wird man sich aber schnell daran gewöhnt haben. Grundsätzlich sollte man beim Schreiben von TypoScript die gleichen Regeln beachten wie sonst auch: den Code gruppieren, sinnvolle Zeileneinzüge und Aufsplittung in verschiedene Dateien um die Übersichtlichkeit zu gewährleisten.
 
 Wenn ich Installationnen sehe die über 500 Zeilen TypoScript bunt gemixt im Setup stehen haben, verwundert es micht nicht, wenn es im Frontend *unerklärliche* Darstellungsfehler gibt ;)
 
+**TypoScript lebt:**
+Die Syntax von TypoScript ist nicht auf ewige Zeiten fetgeschrieben. Zumindest bei den TYPO3 Major Updates gibt es auch immer wieder ein paar Änderungen in der TypoScript Syntax. 
