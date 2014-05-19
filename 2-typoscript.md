@@ -8,43 +8,43 @@ http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/TheDetails/Usages/Index
 
 **TypoScript Basics**
 
-| ID   | Titel                         | Status       | Translation | SO   |
-| :--- | :---------------------------- | :----------- | :---------- | :--: |
-| 0100 | **Erste Schritte mit TS**     | --           | --          | --   |
-| 0101 | -- Übersicht                  |              | none        |      |
-| 0102 | -- Conditions                 |              | none        |      |
-| 0200 | **Navigation mit Typoscript** | --           | --          | --   |
+| ID   | Titel                         | Status       | Translation | SO   | Add  |
+| :--- | :---------------------------- | :----------- | :---------- | :--: | :--: |
+| 0100 | **Erste Schritte mit TS**     | --           | --          | --   |  |
+| 0101 | -- Übersicht                  |              | none        |      |  |
+| 0102 | -- Conditions                 |              | none        |      |  |
+| 0200 | **Navigation mit Typoscript** | --           | --          | --   |  |
 
 
 
 **TypoScript Templating**
 
-| ID   | Titel                         | Status       | Translation | SO   |
-| :--- | :---------------------------- | :----------- | :---------- | :--: |
-| 0100 | **Templating Methoden**       | --           | --          | --   |
-| 0101 | -- Fluid Templating           | --           | --          | --   |
-| 0102 | -- HTML Templates             | --           | --          | --   |
-| 0103 | -- Einfaches TS Template für Browser App | --           | --          | --   |
-| 0100 | **Navigation mit Typoscript** | --           | --          | --   |
-| 0201 | -- Übersicht                  |              |             |      |
-| 0202 | -- Info Menü                  |  check       |             |      |
-| 0203 | -- DropDown Menü              |              |             |      |
-| 0204 | -- Breadcrump                 |              |             |      |
-| 0100 | **Conditions**                | --           | --          | --   |
-| 0204 | -- text                       |              |             |      |
+| ID   | Titel                         | Status       | Translation | SO   | Add  |
+| :--- | :---------------------------- | :----------- | :---------- | :--: | :--: |
+| 0100 | **Templating Methoden**       | --           | --          | --   |  |
+| 0101 | -- Fluid Templating           | --           | --          | --   |  |
+| 0102 | -- HTML Templates             | --           | --          | --   |  |
+| 0103 | -- Einfaches TS Template für Browser App | --           | --          | --   |  |
+| 0100 | **Navigation mit Typoscript** | --           | --          | --   |  |
+| 0201 | -- Übersicht                  |              |             |      |  |
+| 0202 | -- Info Menü                  |  check       |             |      |  |
+| 0203 | -- DropDown Menü              |              |             |      |  |
+| 0204 | -- Breadcrump                 |              |             |      |  |
+| 0100 | **Conditions**                | --           | --          | --   |  |
+| 0204 | -- text                       |              |             |      |  |
 
 **PageTS und UserTS**
 
-| ID   | Titel                         | Status       | Translation | SO   |
-| :--- | :---------------------------- | :----------- | :---------- | :--: |
-| 0100 | **Page TS**                   | --           | --          | --   |
-| 0100 | -- Thema 1                    | --           | --          | --   |
-| 0100 | **User TS**                   | --           | --          | --   |
-| 0100 | -- Thema 1                    | --           | --          | --   |
+| ID   | Titel                         | Status       | Translation | SO   | Add  |
+| :--- | :---------------------------- | :----------- | :---------- | :--: | :--: |
+| 0100 | **Page TS**                   | --           | --          | --   |  |
+| 0100 | -- Thema 1                    | --           | --          | --   |  |
+| 0100 | **User TS**                   | --           | --          | --   |  |
+| 0100 | -- Thema 1                    | --           | --          | --   |  |
 
 
 **Referenz**
 
-| ID   | Titel                         | Status       | Translation | SO   |
-| :--- | :---------------------------- | :----------- | :---------- | :--: |
-| 0100 | **Typoscript allg**           | --           | --          | --   |
+| ID   | Titel                         | Status       | Translation | SO   | Add  |
+| :--- | :---------------------------- | :----------- | :---------- | :--: | :--: |
+| 0100 | **Typoscript allg**           | --           | --          | --   |  |
