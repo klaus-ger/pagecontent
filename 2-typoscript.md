@@ -21,7 +21,7 @@ http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/TheDetails/Usages/Index
 
 | ID   | Titel                         | Status       | Translation | SO   |
 | :--- | :---------------------------- | :----------- | :---------- | :--: |
-| 0100 | **Tempalting Methoden**       | --           | --          | --   |
+| 0100 | **Templating Methoden**       | --           | --          | --   |
 | 0101 | -- Fluid Templating           | --           | --          | --   |
 | 0102 | -- HTML Templates             | --           | --          | --   |
 | 0103 | -- Einfaches TS Template für Browser App | --           | --          | --   |
