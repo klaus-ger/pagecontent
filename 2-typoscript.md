@@ -8,12 +8,12 @@ http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/TheDetails/Usages/Index
 
 **TypoScript Basics**
 
-| ID   | Titel                         | Status       | Translation | SO   | Add  |
-| :--- | :---------------------------- | :----------- | :---------- | :--: | :--: |
-| 0100 | **Erste Schritte mit TS**     | --           | --          | --   |  |
-| 0101 | -- Übersicht                  |              | none        |      |  |
-| 0102 | -- Conditions                 |              | none        |      |  |
-| 0200 | **Navigation mit Typoscript** | --           | --          | --   |  |
+| ID   | Titel                              | Status       | Translation | SO   | Add  |
+| :--- | :--------------------------------- | :----------- | :---------- | :--: | :--: |
+| 0100 | **Erste Schritte mit TS**          | --           | --          | --   |  |
+| 0101 | -- Was ist TypoScript ?            |              | none        |      |  |
+| 0102 | -- Die Schreibweise von TypoScript |              | none        |      |  |
+| 0200 | **Häufige Datentypen**             | --           | --          | --   |  |
 
 
 
