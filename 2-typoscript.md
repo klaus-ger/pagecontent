@@ -10,10 +10,10 @@ http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/TheDetails/Usages/Index
 
 | ID   | Titel                              | Status       | Translation | SO   | Add  |
 | :--- | :--------------------------------- | :----------- | :---------- | :--: | :--: |
-| 0100 | **Erste Schritte mit TS**          | --           | --          | --   |  |
-| 0101 | -- Was ist TypoScript ?            |              | none        |      |  |
-| 0102 | -- Die Schreibweise von TypoScript |              | none        |      |  |
-| 0200 | **Häufige Datentypen**             | --           | --          | --   |  |
+| 2100 | **Erste Schritte mit TS**          | --           | --          | --   |  |
+| 2101 | -- Was ist TypoScript ?            |              | none        |      |  |
+| 2102 | -- Die Schreibweise von TypoScript |              | none        |      |  |
+| 2200 | **Häufige Datentypen**             | --           | --          | --   |  |
 
 
 
@@ -21,30 +21,30 @@ http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/TheDetails/Usages/Index
 
 | ID   | Titel                         | Status       | Translation | SO   | Add  |
 | :--- | :---------------------------- | :----------- | :---------- | :--: | :--: |
-| 0100 | **Templating Methoden**       | --           | --          | --   |  |
-| 0101 | -- Fluid Templating           | --           | --          | --   |  |
-| 0102 | -- HTML Templates             | --           | --          | --   |  |
-| 0103 | -- Einfaches TS Template für Browser App | --           | --          | --   |  |
-| 0100 | **Navigation mit Typoscript** | --           | --          | --   |  |
-| 0201 | -- Übersicht                  |              |             |      |  |
-| 0202 | -- Info Menü                  |  check       |             |      |  |
-| 0203 | -- DropDown Menü              |              |             |      |  |
-| 0204 | -- Breadcrump                 |              |             |      |  |
-| 0100 | **Conditions**                | --           | --          | --   |  |
-| 0204 | -- text                       |              |             |      |  |
+| 2200 | **Templating Methoden**       | --           | --          | --   |  |
+| 2201 | -- Fluid Templating           | --           | --          | --   |  |
+| 2202 | -- HTML Templates             | --           | --          | --   |  |
+| 2203 | -- Einfaches TS Template für Browser App | --           | --          | --   |  |
+| 2220 | **Navigation mit Typoscript** | --           | --          | --   |  |
+| 2221 | -- Übersicht                  |              |             |      |  |
+| 2222 | -- Info Menü                  |  check       |             |      |  |
+| 2223 | -- DropDown Menü              |              |             |      |  |
+| 2224 | -- Breadcrump                 |              |             |      |  |
+| 2240 | **Conditions**                | --           | --          | --   |  |
+| 2241 | -- text                       |              |             |      |  |
 
 **PageTS und UserTS**
 
 | ID   | Titel                         | Status       | Translation | SO   | Add  |
 | :--- | :---------------------------- | :----------- | :---------- | :--: | :--: |
-| 0100 | **Page TS**                   | --           | --          | --   |  |
-| 0100 | -- Thema 1                    | --           | --          | --   |  |
-| 0100 | **User TS**                   | --           | --          | --   |  |
-| 0100 | -- Thema 1                    | --           | --          | --   |  |
+| 2300 | **Page TS**                   | --           | --          | --   |  |
+| 2301 | -- Thema 1                    | --           | --          | --   |  |
+| 2320 | **User TS**                   | --           | --          | --   |  |
+| 2321 | -- Thema 1                    | --           | --          | --   |  |
 
 
 **Referenz**
 
 | ID   | Titel                         | Status       | Translation | SO   | Add  |
 | :--- | :---------------------------- | :----------- | :---------- | :--: | :--: |
-| 0100 | **Typoscript allg**           | --           | --          | --   |  |
+| 2400 | **Typoscript allg**           | --           | --          | --   |  |
