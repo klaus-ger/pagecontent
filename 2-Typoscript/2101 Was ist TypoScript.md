@@ -22,3 +22,7 @@ Wenn ich Installationnen sehe die über 500 Zeilen TypoScript bunt gemixt im Set
 **TypoScript lebt:**
 
 Die Syntax von TypoScript ist nicht auf ewige Zeiten festgeschrieben. Zumindest bei den TYPO3 Major Updates gibt es auch immer wieder ein paar Änderungen in der TypoScript Syntax. 
+
+**Testen und Debuggen**
+
+http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/TheDetails/SyntaxHighlightingDebugging/Index.html
