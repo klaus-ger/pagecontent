@@ -20,4 +20,5 @@ Die TypoScript Syntax ist proprietär und für den Einsteiger zunächst verwirre
 Wenn ich Installationnen sehe die über 500 Zeilen TypoScript bunt gemixt im Setup stehen haben, verwundert es micht nicht, wenn es im Frontend *unerklärliche* Darstellungsfehler gibt ;)
 
 **TypoScript lebt:**
-Die Syntax von TypoScript ist nicht auf ewige Zeiten fetgeschrieben. Zumindest bei den TYPO3 Major Updates gibt es auch immer wieder ein paar Änderungen in der TypoScript Syntax. 
+
+Die Syntax von TypoScript ist nicht auf ewige Zeiten festgeschrieben. Zumindest bei den TYPO3 Major Updates gibt es auch immer wieder ein paar Änderungen in der TypoScript Syntax. 
