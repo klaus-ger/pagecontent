@@ -9,7 +9,7 @@ Letztendlich ist es ein großes Array das TYPO3 intern in php geparst wird.
 
 **TypoScript begegnet uns vor allem in 3 Bereichen:**
 
-* Dem Seitentemplate
+* Im Seitentemplate
 * Auf Seiten-Ebene (um z.B. die Eigenschaften einzelner Seiten oder Baumabschnitte zu beinflussen) 
 * Auf User-Ebene (User & Usergroups, z.B. um Rechte einzustellen)
 
@@ -25,4 +25,5 @@ Die Syntax von TypoScript ist nicht auf ewige Zeiten festgeschrieben. Zumindest 
 
 **Testen und Debuggen**
 
-http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/TheDetails/SyntaxHighlightingDebugging/Index.html
+Da Typoscript eben keine "Programmiersprache" ist, kann man auch nichts direkt debuggen. Im Template -> TypoScript ObjectBrowser sieht man jedoch welche Werte für welche Parameter gesetzt sind - ein hilfreiches Tool Fehler aufzuspüren. 
+
